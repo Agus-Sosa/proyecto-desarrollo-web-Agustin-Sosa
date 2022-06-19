@@ -4,35 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="icon" href="imagenes/lion.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Afterlife</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="paginas/playstations.html">PlayStations</a></li>
-            <li><a href="paginas/xbox.html">Xbox</a></li>
-            <li><a href="paginas/nintendo.html">Nintendo</a></li>
-            <li><a href="paginas/contacto.html">Contacto</a></li>
-        </ul>
+    <header class="header">
+            <nav class="nav">
+                <ul class="unorder">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="paginas/playstations.html">PlayStations</a></li>
+                    <li><a href="paginas/xbox.html">Xbox</a></li>
+                    <li><a href="paginas/nintendo.html">Nintendo</a></li>
+                    <li><a href="paginas/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
     </header>
-    <div>
-        <img src="https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png" alt="Afterlife-store">
-    </div>
     <main>
-        <h2>Recomendado para ti</h2>
-        <ul>
-            <li>
-                <img src="https://www.portalgames.com.ar/wp-content/uploads/2020/06/the-last-of-us-part-2.jpg" width="292" alt="">
-                <p>The last of us 
-                    part ll</p>
-                    <p>US$40</p>
-            </li>
-        </ul>
+        <div class="portada">
+            <img src="https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png" alt="Afterlife-store">
+        </div>
+        <section class="container-index">
+            <h2>Recomendado para ti</h2>
+                <div class="productos">
+                    <div class="juegos">
+                        <a href="playstations/tlou2.html">
+                        <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/Y02ljdBodKFBiziorYgqftLE.png"  alt="">
+                        <p>The Last of Us Part II <br>US$40</p>
+                        </a>
+                    </div>
+
+                    <div class="juegos">
+                        <a href="nintendo/zelda.html">
+                        <img src="https://static.wikia.nocookie.net/doblaje/images/1/1a/The_Legend_of_Zelda_Breath_of_the_Wild.png/revision/latest?cb=20200320051740&path-prefix=es" width="292" alt="">
+                        <p>zelda breath of the wild<br>US60$</p>
+                        </a>
+                    </div>
+
+                    <div class="juegos">
+                        <a href="xbox/halo.html">
+                        <img src="https://static.posters.cz/image/750webp/116575.webp" width="292" alt="">
+                        <p>Halo Infinite <br>US$60 </p>
+                        </a>
+                    </div>
+
+                    <div class="juegos">
+                        <a href="playstations/spiderman.html">
+                            <img src="https://image.api.playstation.com/vulcan/img/rnd/202011/0714/At7kpPioyCSPENS5x6gHesjR.png"alt="imagen de juego">
+                            <p>Marvel's Spider-Man <br>US$40</p>
+                        </a>
+                    </div>
+
+                </div>
+        </section>
     </main>
     <footer>
         <p>Terminos y privacidad</p>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
     </footer>
 </body>
 </html>
