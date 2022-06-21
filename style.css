@@ -42,6 +42,11 @@ ul li{
     display: flex;
 }
 
+.promocion-juego img{
+    width: 100%;
+
+}
+
 .portada-juegos {
     display: flex;
     height: 900px;
@@ -71,6 +76,11 @@ ul li{
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
     margin: 30px;
+}
+
+
+.juegos a {
+    text-decoration: none;
 }
 
 .juegos p {
@@ -104,6 +114,7 @@ ul li{
     box-shadow: 5px 8px 12px black;
 }
 
+
 .container-juegos h2{
     color: white;
     margin-left: 550px;
@@ -117,6 +128,7 @@ ul li{
     margin-top: -325px;
 }
 
+
 footer {
     color: white;
     height: 60px;
@@ -126,11 +138,14 @@ footer {
 }
 
 footer p {
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
 }
 
 i {
     font-size: 30px;
     color: white;
+    margin-right: 15px;
     margin-top: 20px;
+    display: inline-block;
 }
