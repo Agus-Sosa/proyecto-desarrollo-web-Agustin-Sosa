@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--Icon Web-->
     <link rel="icon" href="../imagenes/lion.ico">
     <link rel="stylesheet" href="../style.css">
+            <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Contacto</title>
@@ -22,21 +24,58 @@
             </ul>
         </nav>
     </header>
-    <main class="portada">
-        <img src="https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png" alt="Afterlife Store">
-        <h2>Mandanos tu Mensaje</h2>
+    <main class="contact">
+        <div class="content">
+
+            <h1 class="logo">After <span>Life</span></h1>
+
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Envianos tu mensaje</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="nombre">
+                        </p>
+                        <p>
+                            <label>Email</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="telefono">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="asunto">
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea name="mensaje"rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">
+                                Enviar
+                            </button>
+                        </p>
+
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>informacion de contacto</h4>
+                    <ul class="list-form">
+                        <li><i class="fa-solid fa-map-location-dot"></i>Av. San Martin</li>
+                        <li><i class="fa-solid fa-phone"></i> 341 1 11-1111 </li>
+                        <li><i class="fa-solid fa-envelope"></i>afterlife@gmail.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quod, dolorum quibusdam possimus repellat omnis. Similique dolor aspernatur repudiandae quisquam.</p>
+                    <p>afterlife.com</p>
+                </div>
+            </div>
+
+        </div>
     </main>
-    <form action="" class="contacto">
-        <label for=""></label>
-        <h4>Nombre</h4>
-        <input type="text" name="nombre" id=""><br>
-        <h4>Correo electronico</h4>
-        <input type="email"><br>
-        <h4>Mensaje</h4>
-        <input type="text" name="Mensaje"><br>
-        <input type="reset" name="Cancelar" id=""><br>
-        <input type="submit" name="Enviar" id="">
-    </form>
+
     <footer>
         <p>Terminos y privacidad</p>
         <a href=""><i class="fa-brands fa-instagram"></i></a>

@@ -11,7 +11,7 @@ body {
 
 header {
     background: linear-gradient(180deg, rgba(17, 17, 18, 0.53) 0%, rgba(18, 18, 19, 0.76) 6.25%, #232227 100%);
-    padding: 50px;
+    padding: 20px;
     text-align: center;
     
     
@@ -23,23 +23,78 @@ ul li{
 }
 
 .nav a{
+    display: inline-block;
+    flex-direction: row;
     border-radius: 10px;
     padding: 30px;
     margin: 10px;
     background-color: black;
     color: white;
     text-decoration: none;
-    transition: all 3ms ease;
-    box-shadow: 5px 8px 12px black;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    justify-content: space-between;
+    transition: .4s ease;
 }
 
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
 
+.nav a:hover {
+    box-shadow: 0 0 40px 0 white;
+}
 
-.portada img {
+.portada {
+    height: 400px;    
     width: 100%;
-    height: 347px;
+    overflow-y: hidden;
+}
 
-    display: flex;
+.portada-inicio {
+    background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portada-play img{
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: -92px;
+}
+
+.portada-xbox img {
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: -92px;
+}
+
+.portada-nintendo img {
+    width: 100%;
+    overflow-y: hidden;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+.reservar {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 1316px;
+    padding: 24px;
+    margin-top: -460px;
+    background: linear-gradient(180deg, #0B0B0B 0%, #232227 100%);
+    border-radius: 10px;
+    transition: .4s ease;
+}
+
+.reservar:hover {
+    opacity: 80%;
 }
 
 .promocion-juego img{
@@ -54,17 +109,22 @@ ul li{
     overflow: auto;
 }
 
+.portada-juegos iframe {
+    width: 100%;
+    height: auto;
+}
+
 .container-index {
     display: inline-block;
 }
 
 .container-index img:hover {
-    filter: blur(2px);
+    box-shadow: 0px 0px 20px white;
+    
 }
 
 .productos {
     display: flex;
-    
 }
 
 .juegos {
@@ -73,9 +133,11 @@ ul li{
 
 .juegos img {
     width: 292px;
+    display: inline-block;
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
     margin: 30px;
+    transition: .4s all;
 }
 
 
@@ -94,14 +156,19 @@ ul li{
     margin: 20px;
     color: white;
     display: inline-block;
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.40) 100%);
-    border-radius: 10px;
-    box-shadow: 5px 8px 12px black;
+    
+
 }
 
+.compra-juegos {
+    overflow-y: hidden;
+    width: 100%;
+}
+
+
 .container-juegos {
-    background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 39.06%, #000000 100%);;
-    height: 600px;
+    background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+    height: 830px;
     margin-top: -600px;
     position: relative;
 }
@@ -114,6 +181,60 @@ ul li{
     box-shadow: 5px 8px 12px black;
 }
 
+.categorias {
+    display: flex;
+
+}
+
+.capturas {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    margin-left: 60px;
+    margin-top: 400px;
+    width: auto;
+    
+}
+
+.capturas img {
+    width: 450px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.capturas span {
+    color: white;
+    display: inline-block;
+    margin: 0%;
+}
+
+.capturas-juegos p{
+    color: white;
+
+}
+
+
+.categorias img {
+    width: 68px;
+    margin-top: -36px;
+    margin-left: 1087px;
+    border-radius: 0px;
+    box-shadow: 4px 6px 8px black;
+}
+
+
+
+.categorias p{
+    color: white;
+    margin-left: 12px;
+
+}
+
+.categorias img:hover {
+    color: black;
+    opacity: 90%;
+}
 
 .container-juegos h2{
     color: white;
@@ -122,10 +243,116 @@ ul li{
     display: flex;
 }
 
+
 .container-juegos span{
     color: white;
     margin-left: 550px;
     margin-top: -325px;
+}
+
+
+.contact {
+    background: #181818;
+    color: white;
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.logo span {
+    color: darkred;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 2em;
+}
+
+.contact-wrapper {
+    display:  grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact-wrapper {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-info {
+    background: #000000;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0 ;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid darkred;
+}
+
+.contact-form form button {
+    background: darkred;
+    color: black;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #b70e21;
+    color: #ffff;
+    transition: 0.5s ease-out
+}
+
+.list-form  li{
+    display: block;
+    text-decoration: dashed;
 }
 
 
@@ -148,4 +375,127 @@ i {
     margin-right: 15px;
     margin-top: 20px;
     display: inline-block;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "."
+        "header"
+        "juegos"
+        "footer"
+        ;
+        
+    }
+
+    
+
+.header {
+    
+    width: 100%;
+}
+
+.btn_menu {
+    grid-area: menu;
+    display: inline-flex;
+    
+}
+
+.unorder {
+    grid-area: menu;
+    position: fixed;
+    background: #414141;
+    height: calc(100% - 65%);
+    top: 100vh;
+    text-align: center;
+    transition: all .4s;
+    width: 100vw;
+    flex-direction: column;
+    
+}
+
+.unorder li {
+    grid-area: menu;
+    margin: 30px 0 0 0;
+    line-height: 30px;
+}
+
+.unorder li:hover {
+    grid-area: menu;
+    background: none;
+}
+
+.unorder li a {
+    grid-area: menu;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.unorder li a {
+    grid-area: menu;
+    color: white;
+
+}
+
+
+
+.productos {
+    grid-area: juegos;
+    display: contents;
+
+}
+
+.container-index {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    grid-area: juegos;
+    margin-left: 165px;
+}
+
+.container-index h2 {
+    display: contents;
+    grid-area: juegos;
+
+}
+
+.juegos  {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin-top: 100px;
+    width: 100px;
+    grid-area: juegos;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.juegos p {
+    grid-area: juegos;
+    display: flex;
+    width: auto
+    
+}
+
+.juegos img {
+    display: grid;
+    grid-column: auto;
+    width: 200px;
+    margin: auto;
+    grid-row: auto;
+    grid-area: juegos;
+}
+
+
+footer {
+    display: grid;
+    display: flex;
+    grid-area: footer;
+    margin-top: 110px;
 }
