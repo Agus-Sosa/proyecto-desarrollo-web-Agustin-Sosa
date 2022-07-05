@@ -1,11 +1,11 @@
-window.onload = function() {
-    var btn_menu =
-    document.querySelector('.btn_menu')
+window.onload = function () {
+    var btn_menu = document.querySelector('.btn_menu');
+    var unorder = document.querySelector('.unorder' );
+
     if (btn_menu) {
         btn_menu.addEventListener('click', () => {
-            var unorder =
-            document.querySelector('.unorder')
-            unorder.classList.toggle('show')
+            unorder.classList.toggle('show');
         })
+        
     }
 }
