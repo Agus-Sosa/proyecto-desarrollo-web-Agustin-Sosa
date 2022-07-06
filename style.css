@@ -24,6 +24,7 @@ ul li{
 
 .unorder i {
     display: inline;
+    font-size: 29px;
 }
 
 .nav a{
@@ -430,12 +431,13 @@ ul.show {
 }
 
 
-@media screen and (max-width: 1022px) {
+
+@media screen and (min-width: 320px) and (max-width:800px) {
     .main {
         display: grid;
         grid-template-areas:
         "menu" 
-        "."
+        "portada"
         "header"
         "juegos"
         "footer"
@@ -463,6 +465,7 @@ ul.show {
 }
 
 .unorder {
+    grid-area: menu;
     padding-bottom: 203px;
     position: absolute;
     grid-area: menu;
@@ -491,6 +494,7 @@ ul.show {
 
 .unorder li:hover {
     grid-area: menu;
+    right: auto;
     background: none;
 }
 
@@ -538,7 +542,7 @@ ul.show {
     flex-direction: column;
     margin: auto;
     grid-area: juegos;
-    margin-left: 165px;
+    margin-left: 113px;
 }
 
 
@@ -554,7 +558,6 @@ ul.show {
 .portada {
     width: 100%;
     display: flex;
-    height: auto;
 }
 
 
@@ -620,19 +623,24 @@ footer {
     grid-area: footer;
     margin-top: 110px;
 }
+    
+}
 
-@media screen and (min-width: 1023px) {
+
+@media screen and (min-width: 800px) and (max-width: 1022px) {
     .main {
         display: grid;
         grid-template-areas:
-        "header header" 
-        "."
-        "juegos juegos"
-        "footer footer"
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "footer"
         ;
         
     }
-}
+
+
 
 .header {
     
@@ -645,30 +653,35 @@ footer {
     
 }
 
-
 .btn_menu {
     grid-area: menu;
     display: flex;
     
 }
 
+.btn_menu i {
+    box-shadow: 0 0 10px 0px black;
+}
+
 .unorder {
-    grid-area: menu;
-    display: flex;
-    border: none;
-    height: calc(100% - 65%);
     padding-bottom: 203px;
+    position: absolute;
+    grid-area: menu;
+    display: none;
+    border: none;
+    background-color: #242325;
+    height: calc(100% - 65%);
+    top: -100vh;
     text-align: center;
     transition: all .4s;
+    box-shadow: 0 0 20px 0 black;
     width: 29%;
     flex-direction: column;
-    box-shadow: 0 0 20px 0 black;
     
 }
 
 .unorder i {
     display: none;
-
 }
 
 .unorder li {
@@ -704,7 +717,18 @@ footer {
     border: 0ch;
     display: flex
     
+}
 
+.portada-play img {
+    margin-top: -30px;
+}
+
+.portada-xbox img{
+    margin-top: -30px;
+}
+
+.portada-nintendo img {
+    margin-top: -30px;
 }
 
 .portada-inicio {
@@ -743,7 +767,6 @@ footer {
 .portada {
     width: 100%;
     display: flex;
-    height: auto;
 }
 
 
@@ -751,7 +774,7 @@ footer {
     display: flex;
     right: 11px;
     padding: 10px;
-    margin-top: -81px;
+    margin-top: -154px;
     margin-left: 569px;
     flex-direction: row;
     align-content: flex-start;
@@ -759,7 +782,7 @@ footer {
 }
 
 .juegos  {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content:flex-start;
     margin-top: 100px;
@@ -808,4 +831,177 @@ footer {
     display: flex;
     grid-area: footer;
     margin-top: 110px;
+}
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu menu" 
+        "portada portada"
+        "header header"
+        "juegos juegos"
+        "footer footer"
+        ;
+        
+    }
+
+
+.header {
+    
+    width: 100%;
+}
+
+.nav a:hover {
+    box-shadow:none ;
+    border-bottom: white;
+    
+}
+
+
+.btn_menu {
+    display: none;    
+}
+
+.unorder {
+    grid-area: menu;
+    display: block;
+}
+
+.nav a{
+    display: inline-block;
+    grid-area: menu;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    justify-content: space-between;
+    transition: .4s ease;
+}
+
+
+
+.portada-inicio {
+    grid-area: portada;
+    width: 100%;
+    height: 292px;
+    background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.portada {
+    grid-area: portada;
+    width: 100%;
+}
+
+.portada-play img{
+    grid-area: portada;
+    width: 100%;
+}
+
+.productos {
+    grid-area: juegos;
+    display: contents;
+
+}
+
+.container-index {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    grid-area: juegos;
+    margin-left: 165px;
+}
+
+
+.container-index h2 {
+    display: flex;
+    margin-top: auto;
+    grid-area: juegos;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.portada {
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.portada p {
+    display: flex;
+    right: 36px;
+    padding: 10px;
+    margin-top: -175px;
+    margin-left: 569px;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.juegos  {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 100px;
+    width: 100px;
+    grid-area: juegos;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.juegos p {
+    grid-area: juegos;
+    display: flex;
+    width: auto
+    
+}
+
+.juegos img {
+    display: flex;
+    
+    grid-column: 2 / 4;
+    width: 270px;
+    margin: auto;
+    grid-row: auto;
+    grid-area: juegos;
+}
+
+.container-juegos {
+    background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+    height: 830px;
+    margin-top: -600px;
+    position: relative;
+}
+
+.container-juegos img {
+    grid-area: juegos;
+    width: 292px;
+    margin-left: 150px;
+    margin-top: -200px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+
+footer {
+    grid-area: footer ;
+    width: 100%;
+    display: flex;
+    grid-area: footer;
+    margin-top: 110px;
+}
+
 }
