@@ -17,6 +17,7 @@ header {
     
 }
 
+        /* Navegacion */
 ul li{
     
     display: inline
@@ -52,6 +53,8 @@ ul li{
 .nav a:hover {
     box-shadow: 0 0 40px 0 white;
 }
+
+/* Juegos */
 
 .portada {
     height: 400px;    
@@ -213,6 +216,43 @@ ul li{
     margin-right: 8px;
 }
 
+.boton-compra {
+    margin-top: 62px;
+    margin-bottom: 25px;
+    right: 194px;
+
+    padding-inline: 17px;
+    margin-left: 499px;
+    display: inline-block;
+    padding-right: 44px;
+    width: 20%;
+    padding: 17px;
+    left: 27px;
+}
+
+.boton-compra button {
+    width: 84%;
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 black;
+    background-color: orange;
+    border-radius: 10px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.boton-compra button:hover {
+    color: white;
+
+}
+
+.boton-compra p {
+    color: white;
+    font-size: 19px;
+    margin-bottom: 14px;
+    margin-left: 4px;
+}
+
 .capturas {
     display: flex;
     flex-direction: row;
@@ -293,6 +333,7 @@ ul li{
     margin-top: -325px;
 }
 
+    /* Contacto */
 
 .contact {
     background: #181818;
@@ -403,6 +444,7 @@ ul li{
     color: white;
 }
 
+/* Footer */
 
 footer {
     color: white;
@@ -482,6 +524,8 @@ ul.show {
     
 }
 
+    /* Navegacion */
+
 .unorder i {
     display: none;
 }
@@ -521,6 +565,8 @@ ul.show {
     display: flex
     
 }
+
+/* Juegos */
 
 .portada-inicio {
     grid-area: portada;
@@ -617,6 +663,8 @@ ul.show {
 }
 
 
+    /* Footer */
+
 footer {
     width: 100%;
     display: flex;
@@ -640,7 +688,7 @@ footer {
         
     }
 
-
+/* Navegacion */
 
 .header {
     
@@ -718,6 +766,8 @@ footer {
     display: flex
     
 }
+
+    /* Juegos */
 
 .portada-play img {
     margin-top: -30px;
@@ -825,6 +875,7 @@ footer {
     box-shadow: 5px 8px 12px black;
 }
 
+/* Footer */
 
 footer {
     width: 100%;
@@ -847,6 +898,8 @@ footer {
         
     }
 
+
+    /* Navegacion */
 
 .header {
     
@@ -884,7 +937,7 @@ footer {
     transition: .4s ease;
 }
 
-
+    
 
 .portada-inicio {
     grid-area: portada;
@@ -897,6 +950,7 @@ footer {
     background-size: cover;
 }
 
+    /* Juegos */
 
 .portada {
     grid-area: portada;
@@ -995,6 +1049,7 @@ footer {
     box-shadow: 5px 8px 12px black;
 }
 
+/* Footer */
 
 footer {
     grid-area: footer ;
