@@ -255,30 +255,11 @@ ul li{
 
 .capturas {
     display: flex;
-    flex-direction: row;
-    margin-right: 5px;
-    margin-left: 60px;
-    margin-top: 400px;
-    width: auto;
-    
+    width: 100%;
+    margin-top: 175px;
 }
-
 .capturas img {
-    width: 450px;
-    margin-left: 20px;
-    margin-right: 10px;
-    border-radius: 10px;
-}
-
-.capturas span {
-    color: white;
-    display: inline-block;
-    margin: 0%;
-}
-
-.capturas-juegos p{
-    color: white;
-
+    width: 88%;
 }
 
 
@@ -288,6 +269,10 @@ ul li{
     margin-left: 1087px;
     border-radius: 0px;
     box-shadow: 4px 6px 8px black;
+}
+
+.capturas h4 {
+    
 }
 
 
