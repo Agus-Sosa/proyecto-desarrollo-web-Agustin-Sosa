@@ -253,6 +253,14 @@ ul li{
     margin-left: 4px;
 }
 
+.categorias img {
+    width: 68px;
+    margin-top: -36px;
+    margin-left: 1087px;
+    border-radius: 0px;
+    box-shadow: 4px 6px 8px black;
+}
+
 .capturas {
     display: flex;
     width: 100%;
@@ -262,17 +270,13 @@ ul li{
     width: 88%;
 }
 
-
-.categorias img {
-    width: 68px;
-    margin-top: -36px;
-    margin-left: 1087px;
-    border-radius: 0px;
-    box-shadow: 4px 6px 8px black;
-}
-
 .capturas h4 {
-    
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    left: 154px;
+    top: 369px;
 }
 
 
