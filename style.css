@@ -292,6 +292,7 @@ ul li{
 
 
 
+
 .valoracion p{
     padding: 9px;
 }
@@ -303,6 +304,42 @@ ul li{
 
 }
 
+
+.informacion-juego {
+    height: 627px;
+    background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);
+}
+
+.informacion-juego p {
+    margin-bottom: -38px;
+    color: white;
+    display: inline-block;
+    margin-left: 49px;
+    top: -35px;
+    left: 30px;
+    margin-top: 278px;
+    width: 50%
+}
+
+.informacion-juego iframe {
+    width: 586px;
+    display: inline-block;
+    margin-top: -70px;
+    margin-left: 41px;
+    border-radius: 27px;
+    margin-bottom: -91px;
+    height: 332px;
+    box-shadow: 0 0 20px 0 black;
+    transition: all 300ms;
+    
+}
+
+.informacion-juego h2 {
+    color: white;
+    margin-left: 26px;
+    margin-top: 1px;
+    display: flex;
+}
 .categorias img:hover {
     color: black;
     opacity: 90%;
