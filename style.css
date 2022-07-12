@@ -28,6 +28,9 @@ ul li{
     font-size: 29px;
 }
 
+.nav {
+    justify-content: center;
+}
 .nav a{
     display: inline-block;
     flex-direction: row;
@@ -181,6 +184,14 @@ ul li{
     position: relative;
 }
 
+.container-juegos aside {
+    width: 39%;
+    color: white;
+    font-size: 20px;
+    margin-top: -93px;
+    margin-left: 39px;
+}
+
 .container-juegos img {
     width: 292px;
     margin-left: 150px;
@@ -279,6 +290,21 @@ ul li{
     top: 369px;
 }
 
+.carousel-capturas{
+    width: 45%;
+    margin-left: 153px;
+    margin-top: -172px;
+    border-radius: 0px;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.carousel-capturas img {
+    margin-left: 0px;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+
 
 
 .valoracion_p {
@@ -314,11 +340,12 @@ ul li{
     margin-bottom: -38px;
     color: white;
     display: inline-block;
+    font-size: 18px;
     margin-left: 49px;
     top: -35px;
     left: 30px;
-    margin-top: 278px;
-    width: 50%
+    margin-top: 176px;
+    width: 46%
 }
 
 .informacion-juego iframe {
