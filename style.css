@@ -26,6 +26,7 @@ ul li{
 .unorder i {
     display: inline;
     font-size: 29px;
+    
 }
 
 .nav {
@@ -56,6 +57,9 @@ ul li{
 .nav a:hover {
     box-shadow: 0 0 40px 0 white;
 }
+
+
+
 
 /* Juegos */
 
@@ -162,6 +166,38 @@ ul li{
     color: white;
     list-style: none;
 }
+
+
+.alineacion {
+    margin-top: 506px;
+    margin-left: -849px;
+    padding: 13px;
+    color: black;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.alineacion a {
+    color: white;
+    background-color: #29282e;
+    border: none;
+    padding: 15px;
+}
+
+.alineacion li {
+    background-color: #29282e;
+    color: black;
+}
+
+
+.alineacion li a:hover {
+    color: white;
+    opacity: 80%;
+    background-color: #29282e;
+    border: black;
+}
+
+
 
 .container-index h2 {
     margin: 20px;
