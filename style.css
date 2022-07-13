@@ -368,8 +368,12 @@ ul li{
     
 }
 
-.informacion-dos iframe {
+.iframe-dos iframe {
     margin-bottom: -7px;
+}
+
+.iframe-tres iframe{
+    margin-bottom: -150px;
 }
 
 .informacion-juego h2 {
