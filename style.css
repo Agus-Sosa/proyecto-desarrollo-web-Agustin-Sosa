@@ -137,7 +137,7 @@ ul li{
 
 .section-index {
     width: 100%;
-    box-shadow: 0 0 20px 0 black;
+    
 }
 
 .container-index img:hover {
@@ -214,7 +214,7 @@ ul li{
 .carousel-reservas {
     overflow: hidden;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 46px;
     height: 739px;
 }
 
@@ -1320,32 +1320,38 @@ footer {
 
 .productos {
     grid-area: juegos;
+    margin: 12px;
     display: contents;
-
 }
 
 .container-index {
     display: flex;
-    flex-direction: column;
     margin: auto;
     grid-area: juegos;
     box-shadow: none;
-    margin-left: 165px;
+    
+    flex-direction: row;
+    margin: auto;
+    
+    box-shadow: none;
+    margin-left: -10px;
+    
 }
 
 
 .container-index h2 {
-    display: flex;
-    margin-top: auto;
-    grid-area: juegos;
-    flex-direction: column;
-    text-align: left;
+    margin: 16px;
+    color: white;
+    padding: 0px;
+    width: 176px;
+    display: inline-flex;
 
 }
 
 .portada {
     width: 100%;
     display: flex;
+    margin-left: -177px;
     
 }
 
@@ -1364,31 +1370,41 @@ footer {
 .juegos  {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin-top: 100px;
     width: 100px;
+    left: 25px;
+    margin: 75px 76px 16px;
     grid-area: juegos;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
 
 }
 
+.juegos a {
+    margin: 20px 20px 20px 20px;
+}
+
 .juegos p {
     grid-area: juegos;
     display: flex;
-    width: auto
-    
+    position: absolute;
+    margin: -65px -242px;
+    width: auto;
 }
 
 .juegos img {
     display: flex;
-    
     grid-column: 2 / 4;
-    width: 270px;
+    width: 218px;
     margin: auto;
+    margin-top: 36px;
+    margin-left: -281px;
+    left: 18px;
     grid-row: auto;
     grid-area: juegos;
 }
+
 
 .container-juegos {
     background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
@@ -1480,14 +1496,14 @@ footer {
 .proximos-juegos {
     grid-area: preestrenos;
     display: flex;
-    flex-direction: column;
-    margin-left: 252px;
-    margin-top: -197px;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: -260px;
 }
 
 .proximos-juegos img {
     grid-area: preestrenos;
-    width: 300px;
+    width: 218px;
     margin: 20px 38px 50px 41px;
     display: flex;
     box-shadow: 0 0 20px 0 black;
