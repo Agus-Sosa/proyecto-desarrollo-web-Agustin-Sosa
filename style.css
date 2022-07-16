@@ -678,7 +678,7 @@ ul.show {
 
 .unorder {
     grid-area: menu;
-    padding-bottom: 203px;
+    padding-bottom: 411px;
     position: absolute;
     grid-area: menu;
     display: none;
@@ -777,6 +777,18 @@ ul.show {
     display: flex;
 }
 
+.portada-play {
+    margin-bottom: -57px;
+}
+
+.portada-xbox {
+    margin-bottom: -57px;
+}
+
+.portada-nintendo {
+    margin-bottom: -57px;
+}
+
 
 .portada p {
     display: flex;
@@ -804,16 +816,16 @@ ul.show {
 .juegos p {
     grid-area: juegos;
     display: flex;
-    width: auto
-    
+    width: 300px;
+    margin: -135px 137px;
+    margin-bottom: -102px;
 }
 
 .juegos img {
     display: flex;
-    
     grid-column: 2 / 4;
-    width: 270px;
-    margin: auto;
+    width: 295px;
+    margin: 73px 87px;
     grid-row: auto;
     grid-area: juegos;
 }
@@ -838,6 +850,7 @@ ul.show {
     overflow: hidden;
     width: 100%;
     height: 739px;
+    margin-top: 143px;
 }
 
 .carousel-reservas h2 {
@@ -856,15 +869,15 @@ ul.show {
 }
 
 .div-reservas img{
-    margin-top: -182px;
+    margin-top: -66px;
 
 }
 
 
 .container-index h2 {
-    margin: 20px;
     color: white;
     display: inline-block;
+    margin: 9px -105px -67px;
     
 
 }
@@ -908,13 +921,13 @@ ul.show {
     grid-area: preestrenos;
     display: flex;
     flex-direction: column;
-    margin-left: 252px;
-    margin-top: -197px;
+    margin-left: 155px;
+    margin-top: -279px;
 }
 
 .proximos-juegos img {
     grid-area: preestrenos;
-    width: 300px;
+    width: 295px;
     margin: 20px 38px 50px 41px;
     display: flex;
     box-shadow: 0 0 20px 0 black;
@@ -929,7 +942,7 @@ footer {
     width: 100%;
     display: flex;
     grid-area: footer;
-    margin-top: 110px;
+    margin-top: 178px;
 }
     
 }
@@ -1070,13 +1083,15 @@ footer {
 
 
 .container-index h2 {
-    display: flex;
-    margin-top: auto;
+    display: inline-flex;
+    margin: 21px -155px -94px;
     grid-area: juegos;
     flex-direction: column;
     text-align: left;
 
 }
+
+.container-index:n
 
 .portada {
     width: 100%;
@@ -1099,8 +1114,9 @@ footer {
     display: inline-flex;
     flex-direction: column;
     justify-content:flex-start;
-    margin-top: 100px;
+    margin-top: 139px;
     width: 100px;
+    margin-left: 93px;
     grid-area: juegos;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -1110,7 +1126,8 @@ footer {
 .juegos p {
     grid-area: juegos;
     display: flex;
-    width: auto
+    width: 200px;
+    margin: -69px 39px;
     
 }
 
@@ -1143,6 +1160,7 @@ footer {
     grid-area: reservar;
     overflow: hidden;
     width: 100%;
+    margin-top: 134px;
     height: 739px;
 }
 
@@ -1162,18 +1180,12 @@ footer {
 }
 
 .div-reservas img{
-    margin-top: -182px;
+    margin-top: -76px;
 
 }
 
 
-.container-index h2 {
-    margin: 20px;
-    color: white;
-    display: inline-block;
-    
 
-}
 
 .alineacion {
     grid-area: alineacion;
@@ -1214,8 +1226,8 @@ footer {
     grid-area: preestrenos;
     display: flex;
     flex-direction: column;
-    margin-left: 252px;
-    margin-top: -197px;
+    margin-left: 218px;
+    margin-top: -314px;
 }
 
 .proximos-juegos img {
@@ -1316,6 +1328,7 @@ footer {
 .portada-play img{
     grid-area: portada;
     width: 100%;
+    margin-left: 0px;
 }
 
 .productos {
@@ -1351,7 +1364,7 @@ footer {
 .portada {
     width: 100%;
     display: flex;
-    margin-left: -177px;
+    margin-left: 0px;
     
 }
 
@@ -1360,7 +1373,7 @@ footer {
     display: flex;
     right: 36px;
     padding: 10px;
-    margin-top: -175px;
+    margin-top: -246px;
     margin-left: 569px;
     flex-direction: row;
     align-content: flex-start;
@@ -1440,12 +1453,12 @@ footer {
 .div-reservas {
     overflow: hidden;
     margin-top: -185px;
-    height: 347px;
+    height: 382px;
     
 }
 
 .div-reservas img{
-    margin-top: -182px;
+    margin-top: -115px;
 
 }
 
