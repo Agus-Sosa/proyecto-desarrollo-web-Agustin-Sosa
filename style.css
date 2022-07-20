@@ -110,6 +110,7 @@ ul li{
 
 .reservar:hover {
     opacity: 80%;
+    transform: scale(1.02);
 }
 
 .promocion-juego img{
@@ -612,7 +613,7 @@ ul li{
     padding: 1em;
     margin: 5px 16px;
     width: 54%;
-    border-radius: 0px;
+    border-radius: 6px;
     width: 191%;
     /* display: flex; */
     /* transform: translate(42px, 10px); */
@@ -977,6 +978,11 @@ ul.show {
     transform: none;
 }
 
+
+.block-2 {
+    width: 100%;
+    
+}
 
 
     /* Footer */
