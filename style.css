@@ -518,8 +518,11 @@ ul li{
 .logo {
     text-align: center;
     font-size: 3em;
+    color: black;
     margin-bottom: 25px;
 }
+
+
 
 .logo span {
     color: darkred;
@@ -598,8 +601,10 @@ ul li{
 
 .block-2 {
     width: 50%;
-
+    padding: 1em;
+    transform: translate(-16px, -15px);
 }
+
 
 
 .block-2 button {
@@ -720,7 +725,7 @@ ul.show {
 
 
 .unorder-dos {
-    padding-bottom: 100%%;
+    padding-bottom: 100%;
     
 }
 
@@ -792,7 +797,6 @@ ul.show {
     margin-left: 113px;
 }
 
-
 .container-index h2 {
     display: flex;
     margin-top: auto;
@@ -800,6 +804,10 @@ ul.show {
     flex-direction: column;
     text-align: left;
 
+}
+
+.container-index img:hover {
+    transform: none;
 }
 
 .portada {
@@ -965,21 +973,20 @@ ul.show {
     transition: 1s all;
 }
 
-
-
-.block-2 {
-    width: ;
+.proximos-juegos img:hover {
+    transform: none;
 }
 
-    /* Footer */
 
+
+    /* Footer */
 footer {
     width: 100%;
     display: flex;
     grid-area: footer;
     margin-top: 178px;
 }
-    
+
 }
 
 
@@ -1130,7 +1137,10 @@ footer {
 
 }
 
-.container-index:n
+.container-index img:hover {
+    transform: none;
+
+}
 
 .portada {
     width: 100%;
@@ -1279,6 +1289,10 @@ footer {
     transition: 1s all;
 }
 
+.proximos-juegos img:hover {
+    transform: none;
+}
+
 /* Footer */
 
 footer {
@@ -1398,6 +1412,16 @@ footer {
     width: 176px;
     display: inline-flex;
 
+}
+
+.container-index img:hover {
+    transform: none;
+
+}
+
+.container-index img:active {
+    border: solid;
+    border-color: blue; 
 }
 
 .portada {
@@ -1599,6 +1623,9 @@ footer {
     transition: 1s all;
 }
 
+.proximos-juegos img:hover {
+    transform: none;
+}
 
 .container-juegos {
     grid-area: header;
@@ -1682,9 +1709,7 @@ footer {
     transition: 1s all;
 }
 
-.categorias {
     /* grid-area: header; */
-}
 
 .categorias img {
     grid-area: header;
