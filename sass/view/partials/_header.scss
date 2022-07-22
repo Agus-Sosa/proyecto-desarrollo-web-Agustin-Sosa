@@ -1,0 +1,46 @@
+header {
+    padding: 20px;
+    text-align: center;
+    background: $secondary;
+}
+
+
+ul li{
+    
+    display: inline
+}
+
+.unorder i {
+    display: inline;
+    font-size: 29px;
+    
+}
+
+.nav {
+    justify-content: center;
+}
+.nav a{
+    display: inline-block;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    background-color: $alternative;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    justify-content: space-between;
+    transition: .4s ease;
+}
+
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.nav a:hover {
+    box-shadow: 0 0 40px 0 white;
+}

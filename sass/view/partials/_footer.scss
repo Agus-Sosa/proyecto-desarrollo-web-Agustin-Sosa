@@ -1,0 +1,20 @@
+footer {
+    color: $text-color;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(17, 17, 18, 0.53) 0%, rgba(18, 18, 19, 0.76) 6.25%, #232227 100%);
+    display: flex;
+    justify-content: end;
+}
+
+footer p {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
