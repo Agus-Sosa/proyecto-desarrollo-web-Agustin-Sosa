@@ -775,7 +775,8 @@ ul.show {
 /* Juegos */
 
 .portada-inicio {
-    grid-area: portada;
+    
+    display: none;
     background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -814,6 +815,10 @@ ul.show {
 .portada {
     width: 100%;
     display: flex;
+}
+
+.portada-juegos img{
+    display: none;
 }
 
 .portada-play {
@@ -979,6 +984,131 @@ ul.show {
 }
 
 
+
+.container-juegos {
+    height: 1200px;
+    background-color: #000000d6;
+    transform: translate(0px, 58px);
+}
+
+.container-juegos h2 {
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.container-juegos span {
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.valoracion {
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.pre-compra {
+
+}
+
+.pre-compra img {
+    
+}
+
+
+
+.img-juego img {
+    display: none;
+}
+.portada-mobile {
+    background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+    background-position: center;
+    width: 100%;
+    margin-top: -295px;
+    background-repeat: no-repeat;
+
+}
+
+.categorias {
+    transform: translate(-108px, 502px);
+    margin-bottom: 67px;
+}
+
+.categorias img {
+    width: 40%;
+    border-radius: 0px;
+}
+
+.categorias p {
+    color: white;
+    width: 36%;
+    transform: translate(18px, -97px);
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.boton-compra {
+    background-color: #161616;
+    width: 80%;
+    padding: 40px;
+    margin: 96px 85px 154px;
+    transform: translate(-31px, -108px);
+}
+
+.boton-compra button {
+    width: 100%;
+}
+
+
+.capturas h4 {
+    top: 615px;
+    left: 43px;
+}
+
+.capturas {
+    display: grid;
+}
+
+.carousel-capturas {
+    display: flow-root;
+    transform: translate(-106px, -178px);
+    margin-top: 0px;
+    width: 74%;
+}
+
+
+.carousel-capturas img {
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.container-juegos aside {
+    width: 100%;
+    transform: translate(-17px, -46px);
+    font-size: 19px;
+}
+
+
+.informacion-juego {
+
+}
+
+.informacion-juego p {
+
+}
+
+.informacion-juego iframe {
+        display: grid;
+    transform: translate(10px, 10px);
+    grid-area: portada;
+    margin: 0px;
+    width: 74%;
+    margin-left: 74px;
+    margin-top: -554px;
+}
+
 .block-2 {
     width: 100%;
     
@@ -990,10 +1120,10 @@ footer {
     width: 100%;
     display: flex;
     grid-area: footer;
-    margin-top: 178px;
+    margin: auto;
 }
 
-}
+
 
 
 @media screen and (min-width: 800px) and (max-width: 1022px) {
@@ -1151,6 +1281,10 @@ footer {
 .portada {
     width: 100%;
     display: flex;
+}
+
+.portada-juegos img {
+    background: url(https://as01.epimg.net/meristation/imagenes/2022/06/09/game_cover/132384581654793869.jpg);
 }
 
 
