@@ -1092,21 +1092,38 @@ ul.show {
 
 
 .informacion-juego {
+    height: 910px;
+}
 
+.informacion-juego h2 {
+    transform: translate(-3px, 63px);
 }
 
 .informacion-juego p {
-
+    bottom: 117px;
+    width: 85%;
+    flex-direction: row;
+    margin-top: 525px;
+    top: 129px;
+    transform: translate(20px, -28px);
 }
 
 .informacion-juego iframe {
-        display: grid;
+    display: grid;
     transform: translate(10px, 10px);
     grid-area: portada;
     margin: 0px;
     width: 74%;
-    margin-left: 74px;
-    margin-top: -554px;
+    margin-left: 79px;
+    margin-top: -627px;
+}
+
+.iframe-dos iframe {
+    margin-top: -548px;
+}
+
+.informacion-juego iframe:hover {
+    transform: scale(none);
 }
 
 .block-2 {
@@ -1115,15 +1132,19 @@ ul.show {
 }
 
 
-    /* Footer */
+
 footer {
     width: 100%;
     display: flex;
     grid-area: footer;
+    margin-top: 170px;
+}
+
+.footer-2 {
     margin: auto;
 }
 
-
+}
 
 
 @media screen and (min-width: 800px) and (max-width: 1022px) {
@@ -1225,7 +1246,7 @@ footer {
     
 }
 
-    /* Juegos */
+    
 
 .portada-play img {
     margin-top: -30px;
@@ -1433,7 +1454,7 @@ footer {
     transform: none;
 }
 
-/* Footer */
+
 
 footer {
     width: 100%;
@@ -1441,6 +1462,8 @@ footer {
     grid-area: footer;
     margin-top: 110px;
 }
+
+
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
@@ -1460,7 +1483,7 @@ footer {
     }
 
 
-    /* Navegacion */
+    
 
 .header {
     
@@ -1785,15 +1808,12 @@ footer {
 }
 
 .pre-compra img {
-        grid-area: reserar;
-    /* height: 155px; */
-    /* width: 264px; */
-    /* padding: 0px; */
+    grid-area: reserar;
     margin-left: 32px;
     margin-left: -58px;
     margin-top: 114px;
     transform: translate(113px, -285px);
-    /* margin: 0px 65px -65px 1px; */
+    
     box-shadow: none;
 }
 
@@ -1849,13 +1869,11 @@ footer {
     transition: 1s all;
 }
 
-    /* grid-area: header; */
-
 .categorias img {
     grid-area: header;
 }
 
-/* Footer */
+
 
 footer {
     grid-area: footer ;
@@ -1863,6 +1881,4 @@ footer {
     display: flex;
     grid-area: footer;
     margin-top: 0px;
-}
-
 }
