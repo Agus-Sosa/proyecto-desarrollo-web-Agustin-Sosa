@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Merriweather Sans', sans-serif;
+    
 }
 
 body {
@@ -679,7 +680,7 @@ ul.show {
         "preestrenos"
         "footer"
         ;
-        
+    overflow-x: hidden;
     }
 
     
@@ -1009,13 +1010,7 @@ ul.show {
     margin-left: 15px;
 }
 
-.pre-compra {
 
-}
-
-.pre-compra img {
-    
-}
 
 
 
@@ -1085,6 +1080,7 @@ ul.show {
 }
 
 .container-juegos aside {
+    display: none;
     width: 100%;
     transform: translate(-17px, -46px);
     font-size: 19px;
@@ -1160,9 +1156,10 @@ footer {
         "preestrenos"
         "footer"
         ;
-        
+    overflow-x: hidden;
     }
 
+    
 /* Navegacion */
 
 .header {
@@ -1260,8 +1257,10 @@ footer {
     margin-top: -30px;
 }
 
+
 .portada-inicio {
-    grid-area: portada;
+    
+    display: none;
     background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -1281,13 +1280,12 @@ footer {
     margin: auto;
     grid-area: juegos;
     box-shadow: none;
-    margin-left: 165px;
+    margin-left: 113px;
 }
 
-
 .container-index h2 {
-    display: inline-flex;
-    margin: 21px -155px -94px;
+    display: flex;
+    margin-top: auto;
     grid-area: juegos;
     flex-direction: column;
     text-align: left;
@@ -1296,7 +1294,6 @@ footer {
 
 .container-index img:hover {
     transform: none;
-
 }
 
 .portada {
@@ -1304,8 +1301,20 @@ footer {
     display: flex;
 }
 
-.portada-juegos img {
-    background: url(https://as01.epimg.net/meristation/imagenes/2022/06/09/game_cover/132384581654793869.jpg);
+.portada-juegos img{
+    display: none;
+}
+
+.portada-play {
+    margin-bottom: -57px;
+}
+
+.portada-xbox {
+    margin-bottom: -57px;
+}
+
+.portada-nintendo {
+    margin-bottom: -57px;
 }
 
 
@@ -1313,7 +1322,7 @@ footer {
     display: flex;
     right: 11px;
     padding: 10px;
-    margin-top: -154px;
+    margin-top: -81px;
     margin-left: 569px;
     flex-direction: row;
     align-content: flex-start;
@@ -1324,9 +1333,8 @@ footer {
     display: inline-flex;
     flex-direction: column;
     justify-content:flex-start;
-    margin-top: 139px;
+    margin-top: 100px;
     width: 100px;
-    margin-left: 93px;
     grid-area: juegos;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -1336,17 +1344,16 @@ footer {
 .juegos p {
     grid-area: juegos;
     display: flex;
-    width: 200px;
-    margin: -69px 39px;
-    
+    width: 300px;
+    margin: -135px 137px;
+    margin-bottom: -102px;
 }
 
 .juegos img {
     display: flex;
-    
     grid-column: 2 / 4;
-    width: 300px;
-    margin: auto;
+    width: 295px;
+    margin: 73px 87px;
     grid-row: auto;
     grid-area: juegos;
 }
@@ -1370,8 +1377,8 @@ footer {
     grid-area: reservar;
     overflow: hidden;
     width: 100%;
-    margin-top: 134px;
     height: 739px;
+    margin-top: 143px;
 }
 
 .carousel-reservas h2 {
@@ -1390,12 +1397,18 @@ footer {
 }
 
 .div-reservas img{
-    margin-top: -76px;
+    margin-top: -66px;
 
 }
 
 
+.container-index h2 {
+    color: white;
+    display: inline-block;
+    margin: 9px -105px -67px;
+    
 
+}
 
 .alineacion {
     grid-area: alineacion;
@@ -1436,13 +1449,13 @@ footer {
     grid-area: preestrenos;
     display: flex;
     flex-direction: column;
-    margin-left: 218px;
-    margin-top: -314px;
+    margin-left: 155px;
+    margin-top: -279px;
 }
 
 .proximos-juegos img {
     grid-area: preestrenos;
-    width: 300px;
+    width: 295px;
     margin: 20px 38px 50px 41px;
     display: flex;
     box-shadow: 0 0 20px 0 black;
@@ -1456,13 +1469,159 @@ footer {
 
 
 
+.container-juegos {
+    height: 1200px;
+    background-color: #000000d6;
+    transform: translate(0px, 123px);
+    margin-bottom: 85px;
+}
+
+.container-juegos h2 {
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.container-juegos span {
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+.valoracion {
+    margin: 0px;
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+
+
+
+.img-juego img {
+    display: none;
+}
+.portada-mobile {
+    background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+    background-position: center;
+    width: 100%;
+    margin-top: -295px;
+    background-repeat: no-repeat;
+
+}
+
+.categorias {
+    transform: translate(-108px, 502px);
+    margin-bottom: 67px;
+}
+
+.categorias img {
+    width: 40%;
+    border-radius: 0px;
+}
+
+.categorias p {
+    color: white;
+    width: 36%;
+    transform: translate(18px, -97px);
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.boton-compra {
+    background-color: #161616;
+    width: 80%;
+    padding: 40px;
+    margin: 96px 85px 154px;
+    transform: translate(-31px, -108px);
+}
+
+.boton-compra button {
+    width: 100%;
+}
+
+
+.capturas h4 {
+    top: 615px;
+    left: 43px;
+}
+
+.capturas {
+    display: grid;
+}
+
+.carousel-capturas {
+    display: flow-root;
+    transform: translate(-106px, -178px);
+    margin-top: 0px;
+    width: 74%;
+}
+
+
+.carousel-capturas img {
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.container-juegos aside {
+    display: none;
+    width: 100%;
+    transform: translate(-17px, -46px);
+    font-size: 19px;
+}
+
+
+.informacion-juego {
+    height: 910px;
+}
+
+.informacion-juego h2 {
+    transform: translate(-3px, 63px);
+}
+
+.informacion-juego p {
+    bottom: 117px;
+    width: 85%;
+    flex-direction: row;
+    margin-top: 525px;
+    top: 129px;
+    transform: translate(20px, -28px);
+}
+
+.informacion-juego iframe {
+    display: grid;
+    transform: translate(10px, 10px);
+    grid-area: portada;
+    margin: 0px;
+    width: 74%;
+    margin-left: 79px;
+    margin-top: -627px;
+}
+
+.iframe-dos iframe {
+    margin-top: -548px;
+}
+
+.informacion-juego iframe:hover {
+    transform: scale(none);
+}
+
+.block-2 {
+    width: 100%;
+    
+}
+
+
+
 footer {
     width: 100%;
     display: flex;
     grid-area: footer;
-    margin-top: 110px;
+    margin-top: 170px;
 }
 
+.footer-2 {
+    margin: auto;
+}
 
 }
 
@@ -1479,9 +1638,9 @@ footer {
         "preestrenos preestrenos"
         "footer footer"
         ;
+        overflow-x: hidden;
         
     }
-
 
     
 
@@ -1662,28 +1821,28 @@ footer {
 }
 
 .container-juegos aside {
-    width: 28%;
+    width: 80%;
     color: white;
-    font-size: 15px;
-    margin-top: -91px;
-    margin-left: 39px;
+    font-size: 19px;
+    display: inline;
+    margin: 0px;
+    flex-direction: row;
+    transform: translate(-80px, -482px);
 }
 
 .carousel-capturas {
-    
     grid-area: reservar;
-    margin: -172px -12px 29px 60px;
-    width: 21%;
-    height: 59px;
-    margin-top: -159px;
     box-shadow: none;
+    width: 119%;
+    transform: translate(-107px, -341px);
+
 }
 
 
+
 .capturas {
-    display: flex;
     width: 100%;
-    margin-top: -254px;
+    transform: translate(10px, -404px);
 }
 
 
@@ -1692,10 +1851,16 @@ footer {
     color: white;
     font-size: 18px;
     display: flex;
-    left: 77px;
-    top: 460px;
+    left: 51px;
+    top: -542px;
+
 }
 
+.carousel-capturas img {
+    margin-left: 0px;
+    border-radius: 0px;
+    margin-top: 0px;
+}
 
 .carousel-reservas {
     grid-area: reservar;
@@ -1796,7 +1961,7 @@ footer {
 
 .portada-juegos {
     grid-area: portada;
-    width: 55%;
+    width: 100%;
 }
 
 .portada-juegos img {
@@ -1823,18 +1988,78 @@ footer {
     margin: -338px 335px 43px;
 }
 
+.container-juegos {
+    width: 100%;
+}
+
+.container-juegos h2 {
+    transform: translate(432px, -542px);
+    margin: 0px;
+    font-size: 23px;
+}
+
+.container-juegos span {
+        margin: 0px;
+    transform: translate(423px, -535px);
+    display: grid;
+}
+
+
+
+
+.categorias {
+    transform: translate(690px, -362px);
+}
+
+.categorias img {
+    grid-area: header;
+    width: 79px;
+    margin: 0px;
+    border-radius: 0px;
+
+}
+
+.categorias p {
+    margin: 0px;
+    transform: translate(131px, -270px);
+    width: 20%;
+    font-size: 13px;
+}
+
 .valoracion {
     grid-area: reservar;
+    margin: 0px;
+    transform: translate(416px, -532px);
+}
+
+.valoracion p {
+    margin:  0px;
 }
 
 .boton-compra {
     grid-area: header;
+    margin: 0px;
+    transform: translate(399px, -642px);
 }
 
+.boton-compra p {
+    grid-area: header;
+    margin-bottom: 36px;
+}
+.carousel-capturas img {
+    margin-left: -113px;
+    border-radius: 0px;
+    margin-top: 310px;
+}
+
+.carousel-capturas span {
+    margin: 0px;
+    transform: translate(0px, -134px);
+    display: flex;
+}
 .informacion-juego {
     grid-area: alineacion;
-    width: 55%;
-    height: 500px;
+    height: 731px;
 }
 
 .informacion-juego h2 {
@@ -1869,9 +2094,7 @@ footer {
     transition: 1s all;
 }
 
-.categorias img {
-    grid-area: header;
-}
+
 
 
 
@@ -1881,4 +2104,7 @@ footer {
     display: flex;
     grid-area: footer;
     margin-top: 0px;
+}
+
+
 }
