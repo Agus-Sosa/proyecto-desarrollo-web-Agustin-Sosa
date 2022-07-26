@@ -1252,11 +1252,13 @@ footer {
 
 .container-index {
     display: flex;
+    width: 100%;
     flex-direction: column;
     margin: auto;
     grid-area: juegos;
     box-shadow: none;
     margin-left: 113px;
+    transform: translate(-113px, 3px);
 }
 
 .container-index h2 {
@@ -1312,6 +1314,7 @@ footer {
     margin-top: 100px;
     width: 100px;
     grid-area: juegos;
+    transform: translate(226px, -118px);
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
 
@@ -1381,7 +1384,7 @@ footer {
 .container-index h2 {
     color: white;
     display: inline-block;
-    margin: 9px -105px -67px;
+
     
 
 }
@@ -1392,6 +1395,10 @@ footer {
     flex-direction: column;
     margin-left: 155px;
     margin-top: -279px;
+    width: 100%;
+    transform: translate(-155px, 10px);
+    align-items: center;
+
 }
 
 .proximos-juegos img {
