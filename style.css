@@ -765,8 +765,10 @@ ul.show {
     display: flex;
     flex-direction: column;
     margin: auto;
+    width: 100%;
     grid-area: juegos;
     box-shadow: none;
+    transform: translate(-113px, 3px);
     margin-left: 113px;
 }
 
@@ -823,6 +825,7 @@ ul.show {
     margin-top: 100px;
     width: 100px;
     grid-area: juegos;
+    transform: translate(157px,-98px);
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
 
@@ -892,7 +895,7 @@ ul.show {
 .container-index h2 {
     color: white;
     display: inline-block;
-    margin: 9px -105px -67px;
+    
     
 
 }
@@ -901,6 +904,9 @@ ul.show {
     grid-area: preestrenos;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
+    transform: translate(-156px, -65px);
     margin-left: 155px;
     margin-top: -279px;
 }
