@@ -180,38 +180,6 @@ ul li{
 }
 
 
-.alineacion {
-    margin-top: 506px;
-    margin-left: -849px;
-    padding: 13px;
-    color: black;
-    border-radius: 10px;
-    
-    font-size: 19px;
-}
-
-.alineacion a {
-    color: white;
-    background-color: #29282e;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    transition:  .4s all;
-}
-
-.alineacion li {
-    background-color: #29282e;
-    color: black;
-}
-
-
-.alineacion li a:hover {
-    color: white;
-    opacity: 80%;
-    box-shadow: 0 0 20px 0 black;
-    background-color: black;
-    border: black;
-}
 
 .carousel-reservas {
     overflow: hidden;
@@ -680,10 +648,12 @@ ul.show {
         "preestrenos"
         "footer"
         ;
-    overflow-x: hidden;
+    
     }
 
-    
+    .main-dos {
+        overflow-x: hidden;
+    }
 
 .header {
     
@@ -927,41 +897,6 @@ ul.show {
 
 }
 
-.alineacion {
-    grid-area: alineacion;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 13px;
-    color: black;
-    border-radius: 10px;
-    
-    font-size: 19px;
-}
-
-.alineacion a {
-    grid-area: alineacion;
-    color: white;
-    background-color: #29282e;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    transition:  .4s all;
-}
-
-.alineacion li {
-    background-color: #29282e;
-    color: black;
-}
-
-
-.alineacion li a:hover {
-    color: white;
-    opacity: 80%;
-    box-shadow: 0 0 20px 0 black;
-    background-color: black;
-    border: black;
-}
-
 .proximos-juegos {
     grid-area: preestrenos;
     display: flex;
@@ -1018,12 +953,45 @@ ul.show {
     display: none;
 }
 .portada-mobile {
-    background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
     background-position: center;
     width: 100%;
     margin-top: -295px;
     background-repeat: no-repeat;
 
+}
+
+/* Portada de los juegos */
+
+.portada-tlou1 {
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4UPX7BFVAFFWRGX2AZOZ5UY5VU.png);
+}
+
+.portada-tlou2 {
+    background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+}
+
+.portada-spiderman {
+    background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202011/0714/YxnYgr7GHM0JVQRSrnOK35yr.png);
+}
+
+.portada-gow {
+    background-image: url(https://static.wikia.nocookie.net/doblaje/images/6/67/God_of_war_ps4.jpg/revision/latest?cb=20200320062042&path-prefix=es);
+}
+
+.portada-forza {
+    background-image: url(https://theworldwentaway.files.wordpress.com/2021/11/forzahorizon5-keyart-vert-rgb-final-1629720353.jpg);
+}
+
+.portada-gears {
+    background-image: url(https://s1.gaming-cdn.com/images/products/2712/orig-fallback-v1/gears-5-pc-xbox-one-xbox-series-x-s-pc-xbox-one-xbox-series-x-s-juego-microsoft-store-cover.jpg?v=1647885157);
+}
+
+.portada-ghotam {
+    background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+}
+
+.portada-halo {
+    background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
 }
 
 .categorias {
@@ -1062,6 +1030,10 @@ ul.show {
     left: 43px;
 }
 
+.titulo-captura {
+    margin-bottom: 50px;
+}
+
 .capturas {
     display: grid;
 }
@@ -1093,6 +1065,7 @@ ul.show {
 
 .informacion-juego h2 {
     transform: translate(-3px, 63px);
+    margin-bottom: 100px;
 }
 
 .informacion-juego p {
@@ -1115,7 +1088,7 @@ ul.show {
 }
 
 .iframe-dos iframe {
-    margin-top: -548px;
+    margin-top: -757px;
 }
 
 .informacion-juego iframe:hover {
@@ -1156,9 +1129,12 @@ footer {
         "preestrenos"
         "footer"
         ;
-    overflow-x: hidden;
+    
     }
 
+    .main-dos {
+        overflow-x: hidden;
+    }
     
 /* Navegacion */
 
@@ -1410,41 +1386,6 @@ footer {
 
 }
 
-.alineacion {
-    grid-area: alineacion;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 13px;
-    color: black;
-    border-radius: 10px;
-    
-    font-size: 19px;
-}
-
-.alineacion a {
-    grid-area: alineacion;
-    color: white;
-    background-color: #29282e;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    transition:  .4s all;
-}
-
-.alineacion li {
-    background-color: #29282e;
-    color: black;
-}
-
-
-.alineacion li a:hover {
-    color: white;
-    opacity: 80%;
-    box-shadow: 0 0 20px 0 black;
-    background-color: black;
-    border: black;
-}
-
 .proximos-juegos {
     grid-area: preestrenos;
     display: flex;
@@ -1598,7 +1539,7 @@ footer {
 }
 
 .iframe-dos iframe {
-    margin-top: -548px;
+    margin-top: -672px;
 }
 
 .informacion-juego iframe:hover {
@@ -1898,40 +1839,6 @@ footer {
 
 }
 
-.alineacion {
-    grid-area: alineacion;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 13px;
-    color: black;
-    border-radius: 10px;
-    
-    font-size: 19px;
-}
-
-.alineacion a {
-    grid-area: alineacion;
-    color: white;
-    background-color: #29282e;
-    border: none;
-    padding: 15px;
-    border-radius: 10px;
-    transition:  .4s all;
-}
-
-.alineacion li {
-    background-color: #29282e;
-    color: black;
-}
-
-
-.alineacion li a:hover {
-    color: white;
-    opacity: 80%;
-    box-shadow: 0 0 20px 0 black;
-    background-color: black;
-    border: black;
-}
 
 .proximos-juegos {
     grid-area: preestrenos;
@@ -2039,12 +1946,13 @@ footer {
 .boton-compra {
     grid-area: header;
     margin: 0px;
-    transform: translate(399px, -642px);
+    transform: translate(399px, -549px);
 }
 
 .boton-compra p {
     grid-area: header;
     margin-bottom: 36px;
+    transform: translate(-331px, 13px);
 }
 .carousel-capturas img {
     margin-left: -113px;
@@ -2059,7 +1967,7 @@ footer {
 }
 .informacion-juego {
     grid-area: alineacion;
-    height: 731px;
+    height: 874px;
 }
 
 .informacion-juego h2 {
@@ -2105,6 +2013,5 @@ footer {
     grid-area: footer;
     margin-top: 0px;
 }
-
 
 }
