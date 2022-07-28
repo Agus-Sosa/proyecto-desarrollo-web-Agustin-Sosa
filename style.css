@@ -134,6 +134,7 @@ ul li{
 .container-index {
     display: inline-block;
     transition: .1s all;
+    width: 100%;
     
 }
 
@@ -189,10 +190,13 @@ ul li{
 }
 
 .carousel-reservas h2 {
-    height: 228px;
     color: white;
     display: inline-flex;
+    margin-bottom: 212px;
     margin-left: 12px;
+    background: orange;
+    box-shadow: 15px 15px black;
+    padding: 10px;
 }
 
 .div-reservas {
@@ -230,9 +234,12 @@ ul li{
 
 .container-index h2 {
     margin: 20px;
+    background: orange;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px black;
+    padding: 15px;
     color: white;
     display: inline-block;
-    
 
 }
 
@@ -778,7 +785,7 @@ ul.show {
     grid-area: juegos;
     flex-direction: column;
     text-align: left;
-
+    margin: auto;
 }
 
 .container-index img:hover {
@@ -788,6 +795,7 @@ ul.show {
 .portada {
     width: 100%;
     display: flex;
+    grid-area: portada;
 }
 
 .portada-juegos img{
@@ -873,10 +881,10 @@ ul.show {
 
 .carousel-reservas h2 {
     
-    height: 228px;
     color: white;
     display: inline-flex;
     margin-left: 12px;
+    margin-bottom: 215px;
 }
 
 .div-reservas {
@@ -895,7 +903,8 @@ ul.show {
 .container-index h2 {
     color: white;
     display: inline-block;
-    
+    width: 207px;
+    text-align: center;
     
 
 }
@@ -908,7 +917,7 @@ ul.show {
     align-items: center;
     transform: translate(-156px, -65px);
     margin-left: 155px;
-    margin-top: -279px;
+    margin-top: -235px;
 }
 
 .proximos-juegos img {
@@ -1049,6 +1058,7 @@ ul.show {
     transform: translate(-106px, -178px);
     margin-top: 0px;
     width: 74%;
+    
 }
 
 
@@ -1263,6 +1273,7 @@ footer {
     margin: auto;
     grid-area: juegos;
     box-shadow: none;
+    margin-top: 55px;
     margin-left: 113px;
     transform: translate(-113px, 3px);
 }
@@ -1270,9 +1281,10 @@ footer {
 .container-index h2 {
     display: flex;
     margin-top: auto;
-    grid-area: juegos;
+    margin: auto;
+    width: 220px;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -1283,6 +1295,7 @@ footer {
 .portada {
     width: 100%;
     display: flex;
+    grid-area: portada;
 }
 
 .portada-juegos img{
@@ -1308,6 +1321,7 @@ footer {
     padding: 10px;
     margin-top: -81px;
     margin-left: 569px;
+    transform: translate(-13px, -111px);
     flex-direction: row;
     align-content: flex-start;
     flex-wrap: nowrap;
@@ -1368,7 +1382,7 @@ footer {
 
 .carousel-reservas h2 {
     
-    height: 228px;
+    
     color: white;
     display: inline-flex;
     margin-left: 12px;
@@ -1387,13 +1401,7 @@ footer {
 }
 
 
-.container-index h2 {
-    color: white;
-    display: inline-block;
 
-    
-
-}
 
 .proximos-juegos {
     grid-area: preestrenos;
@@ -1684,8 +1692,10 @@ footer {
 .container-index h2 {
     margin: 16px;
     color: white;
-    padding: 0px;
-    width: 176px;
+    padding: 10px;
+    width: 210px;
+    height: 101px;
+    text-align: center;
     display: inline-flex;
 
 }
@@ -1726,7 +1736,7 @@ footer {
     margin-top: 100px;
     width: 100px;
     left: 25px;
-    margin: 75px 76px 16px;
+    margin: 95px 76px 16px;
     grid-area: juegos;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -1825,7 +1835,7 @@ footer {
 
 .carousel-reservas h2 {
     
-    height: 228px;
+    
     color: white;
     display: inline-flex;
     margin-left: 12px;
@@ -1844,13 +1854,6 @@ footer {
 }
 
 
-.container-index h2 {
-    margin: 20px;
-    color: white;
-    display: inline-block;
-    width: 256px;
-
-}
 
 
 .proximos-juegos {
