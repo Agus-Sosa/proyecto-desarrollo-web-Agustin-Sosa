@@ -4,29 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background: map-get($palette , 'primary' );
 }
 
 a {
     text-decoration: none;
-}
-
-
-.portada {
-    height: 400px;    
-    width: 100%;
-    overflow-y: hidden;
-}
-
-
-
-
-.juegos {
-    list-style: none;
-}
-
-.juegos img {
-    width: 292px;
-    margin: 30px;
-    border-radius: 20px;
 }
 

@@ -97,24 +97,14 @@
 
 
 .block-2 {
+
+    @extend .contact-form;
     width: 50%;
     padding: 1em;
-    transform: translate(-16px, -15px);
 }
 
 
 
-.block-2 button {
-    background: gray;
-    padding: 1em;
-    margin: 5px 16px;
-    width: 54%;
-    border-radius: 6px;
-    width: 191%;
-    /* display: flex; */
-    /* transform: translate(42px, 10px); */
-    text-transform: uppercase;
-}
 
 .contact-form form button:hover,
 .contact-form form button:focus {
@@ -130,4 +120,48 @@
 
 .contact-info {
     color: white;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1022px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+    
+.block-2 {
+    width: 100;
+}
+} 
+
+@media screen and (min-width: 800px) and (max-width: 1022px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+    .block-2 {
+        width: 100%;
+        
+    }
+    
 }

@@ -7,7 +7,8 @@ header {
 
 ul li{
     
-    display: inline
+    display: inline-flex;
+    
 }
 
 .unorder i {
@@ -41,6 +42,289 @@ ul li{
     display: none;
 }
 
+ul.show {
+    top: 90px;
+    display: flex;
+    left: 0px;
+}
+
 .nav a:hover {
     box-shadow: 0 0 40px 0 white;
+    transform: scale(1.05);
+}
+
+
+
+
+//media queris
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+        
+    }
+
+
+    
+    /* Navegacion */
+    
+    
+    .header {
+        
+        width: 100%;
+    }
+    
+    .nav a{
+        border-radius: 0%;
+        border: 0ch;
+        display: flex
+        
+    }
+    .nav a:hover {
+        box-shadow:none ;
+        border-bottom: white;
+        
+    }
+    
+    .btn_menu {
+        grid-area: menu;
+        display: flex;
+        
+        i {
+            box-shadow: 0 0 20px 0 black;
+        }
+    }
+    
+    
+    .unorder {
+        grid-area: menu;
+        padding-bottom: 411px;
+        position: absolute;
+        grid-area: menu;
+        display: none;
+        border: none;
+        background-color: #242325;
+        height: calc(100% - 65%);
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        box-shadow: 0 0 20px 0 black;
+        width: 29%;
+        flex-direction: column;
+        
+    }
+    
+    
+    
+    .unorder-dos {
+        padding-bottom: 100%;
+        
+    }
+    
+    
+    .unorder i {
+        display: none;
+    }
+    
+    .unorder li {
+        grid-area: menu;
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+    
+    .unorder li:hover {
+        grid-area: menu;
+        right: auto;
+        background: none;
+    }
+    
+    .unorder li a {
+        grid-area: menu;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        border: 0;
+    }
+    
+    .unorder li a {
+        grid-area: menu;
+        color: white;
+        padding: 0;
+        box-shadow: none;
+        background: none;
+        
+    }
+    
+    
+}
+
+@media screen and (min-width: 800px) and (max-width: 1022px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+
+    .main-dos {
+        overflow-x: hidden;
+    }
+    
+/* Navegacion */
+
+.header {
+    
+    width: 100%;
+}
+
+.nav a:hover {
+    box-shadow:none ;
+    border-bottom: white;
+    
+}
+
+.btn_menu {
+    grid-area: menu;
+    display: flex;
+    
+}
+
+.btn_menu i {
+    box-shadow: 0 0 10px 0px black;
+}
+
+.unorder {
+    padding-bottom: 420px;
+    position: absolute;
+    grid-area: menu;
+    display: none;
+    border: none;
+    background-color: #242325;
+    height: calc(100% - 65%);
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    box-shadow: 0 0 20px 0 black;
+    width: 29%;
+    flex-direction: column;
+    
+}
+
+.unorder-dos {
+    padding-bottom: 48%;
+}
+
+.unorder i {
+    display: none;
+}
+
+.unorder li {
+    grid-area: menu;
+    margin: 30px 0 0 0;
+    line-height: 30px;
+}
+
+.unorder li:hover {
+    grid-area: menu;
+    background: none;
+}
+
+.unorder li a {
+    grid-area: menu;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+.unorder li a {
+    grid-area: menu;
+    color: white;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+
+}
+
+.nav a{
+    border-radius: 0%;
+    border: 0ch;
+    display: flex
+    
+}
+}
+
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu menu" 
+        "portada portada"
+        "header header"
+        "juegos juegos"
+        "alineacion alineacion"
+        "reservar reservar"
+        "preestrenos preestrenos"
+        "footer footer"
+        ;
+        overflow-x: hidden;
+        
+    }
+
+    
+
+.header {
+    
+    width: 100%;
+}
+
+.nav a:hover {
+    box-shadow:none ;
+    border-bottom: white;
+    
+}
+
+
+.btn_menu {
+    display: none;    
+}
+
+.unorder {
+    grid-area: menu;
+    display: block;
+}
+
+.nav a{
+    display: inline-block;
+    grid-area: menu;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    justify-content: space-between;
+    transition: .4s ease;
+}
 }

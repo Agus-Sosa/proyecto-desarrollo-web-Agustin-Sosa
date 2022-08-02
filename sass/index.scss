@@ -1,10 +1,16 @@
-@import './misc/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Teko:wght@300&display=swap');
+
 @import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
 
 
 @import './view/partials/header';
+
 @import './view/home';
+
 @import './view/juegos';
+
 @import './view/contacto';
 
 

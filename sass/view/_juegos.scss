@@ -1,0 +1,1594 @@
+.portada {
+    height: 400px;    
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.portada-inicio {
+    background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portada-play img{
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: -92px;
+}
+
+.portada-xbox img {
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: -92px;
+}
+
+.portada-nintendo img {
+    width: 100%;
+    overflow-y: hidden;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+.reservar {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 1316px;
+    padding: 24px;
+    margin-top: -460px;
+    background: linear-gradient(180deg, #0B0B0B 0%, #232227 100%);
+    border-radius: 10px;
+    transition: .4s ease;
+}
+
+.reservar:hover {
+    opacity: 80%;
+    transform: scale(1.02);
+}
+
+.promocion-juego img{
+    width: 100%;
+
+}
+
+.portada-juegos {
+    display: flex;
+    height: 900px;
+    width: 100%;
+    overflow: auto;
+}
+
+.portada-juegos iframe {
+    width: 100%;
+    height: auto;
+}
+
+.container-index {
+    display: inline-block;
+    color: map-get($palette , 'primary' );
+    transition: 1s all;
+    width: 100%;
+
+    h2 {
+        margin: 30px 35px 0px;
+        color: white;
+        display: inline-block;
+    
+    }
+}
+
+.section-index {
+    width: 100%;
+    
+}
+
+.container-index a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 0px white;
+    opacity: 70%;
+    
+
+}
+
+.productos {
+    display: flex;
+    color: map-get($palette , 'primary' );
+}
+
+.juegos {
+    list-style: none;
+    a {
+        text-decoration: none;
+        margin: 30px;
+        width: 292px;
+        display: block;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: 1s all;
+        a:hover {
+            transform: scale(1.05);
+            opacity: 80%;
+        }
+    }
+    img {
+        width: 100%;
+        display: inline-block;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+        margin: 0px;
+        transition: 1s all;
+    }
+    p {
+        margin-left: 100px;
+        margin-top: -100px;
+        color: white;
+        position: absolute;
+        list-style: none;
+        transition: 1s all;
+    }
+}
+
+.juegos a {
+    transition: 1s all;
+}
+
+.carousel-reservas {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 46px;
+    height: 739px;
+
+    h2 {
+    
+        color: white;
+        display: inline-flex;
+        margin-bottom: 212px;
+        margin-left: 12px;
+    }
+}
+
+
+.div-reservas {
+    overflow: hidden;
+    margin-top: -185px;
+    height: 450px;
+    
+    img{
+        margin-top: -182px;
+    }
+}
+
+.proximos-juegos {
+    @include spacing(-126px 90px 30px, null, null);
+    display: flex;
+    
+
+        img {
+            display: flex;
+            box-shadow: 0 0 20px 0 black;
+            width: 100%;
+            border-radius: 20px;
+            transition: 1s all;
+        }
+
+    a {
+        @include spacing(30px, 300px, null);
+        transition: 1s all;
+        border-radius: 20px;
+
+        p {
+            margin: -88px 54px;
+            position: absolute;
+            color: white;
+            display: block;
+            transition: 1s all;
+            p:hover {
+                transform: scale(1.05);
+                opacity: 80%;
+            }
+        }
+    }
+}
+
+
+
+.proximos-juegos a:hover {
+    transform: scale(1.05);
+    opacity: 50%;
+    box-shadow: 0 0 20px 0 white;
+}
+
+
+
+.compra-juegos {
+    overflow-y: hidden;
+    width: 100%;
+}
+
+
+.container-juegos {
+    background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+    height: 830px;
+    margin-top: -600px;
+    position: relative;
+    
+    h2 {
+        color: white;
+        margin-left: 550px;
+        margin-top: -330px;
+        display: flex;
+    }
+
+    span{
+        color: white;
+        margin-left: 550px;
+        margin-top: -325px;
+    }
+
+    aside {
+        width: 39%;
+        color: white;
+        font-size: 20px;
+        margin-top: -93px;
+        margin-left: 39px;
+    }
+    img {
+        width: 292px;
+        margin-left: 150px;
+        margin-top: -100px;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+    }
+}
+
+
+
+
+
+.categorias {
+    display: flex;
+    img {
+        width: 68px;
+        margin-top: -36px;
+        margin-left: 1087px;
+        border-radius: 0px;
+        box-shadow: 4px 6px 8px black;
+    } 
+}
+
+.categorias img:hover {
+    color: black;
+    opacity: 90%;
+}
+
+
+.valoracion {
+    border-top: white;
+    display: flex;
+    margin-left: 557px;
+    margin-top: 8px;
+
+    p{
+        border-width: 3px;
+        border-top: white;
+        color: white;
+        margin-right: 23px;
+        margin-bottom: -49px;
+        border-left: white;
+    }
+    
+    i {
+        margin-top: -6px;
+        font-size: 16px;
+        margin-right: 8px;
+    }
+}
+
+
+
+.boton-compra {
+    margin-top: 62px;
+    margin-bottom: 25px;
+    right: 194px;
+
+    padding-inline: 17px;
+    margin-left: 499px;
+    display: inline-block;
+    padding-right: 44px;
+    width: 20%;
+    padding: 17px;
+    left: 27px;
+
+    button {
+        width: 84%;
+        font-size: 18px;
+        padding: 10px;
+        box-shadow: 0 0 20px 0 black;
+        background-color: orange;
+        border-radius: 10px;
+        transition: .4s all;
+        cursor: pointer;
+    }
+
+    p {
+        color: white;
+        font-size: 19px;
+        margin-bottom: 14px;
+        margin-left: 4px;
+    }
+}
+
+
+.boton-compra button:hover {
+    color: white;
+
+}
+
+
+
+.capturas {
+    display: flex;
+    width: 100%;
+    margin-top: 175px;
+
+    img {
+        width: 88%;
+    }
+
+    h4 {
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        left: 154px;
+        top: 369px;
+    }
+}
+
+
+.carousel-capturas{
+    width: 45%;
+    margin-left: 153px;
+    margin-top: -172px;
+    border-radius: 0px;
+    box-shadow: 0 0 20px 0 black;
+
+    img {
+        margin-left: 0px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+
+}    
+
+.carousel-dos {
+    margin-top: -155px;
+}    
+
+
+
+
+.valoracion_p {
+    margin-right: 18px;
+    margin-left: 2px;
+    text-align: end;
+    border-right: solid;
+    padding: 9px;
+    border-spacing: 10px;
+}
+
+.valoracion p{
+    padding: 9px;
+}
+
+.categorias p{
+    color: white;
+    margin-left: 12px;
+    
+
+}
+
+
+.informacion-juego {
+    height: 627px;
+    background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);
+    
+        h2 {
+        color: white;
+        margin-left: 26px;
+        margin-top: 1px;
+        display: flex;
+    }
+
+        p {
+        margin-bottom: -38px;
+        color: white;
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 49px;
+        top: -35px;
+        left: 30px;
+        margin-top: 176px;
+        width: 46%
+    }
+
+        iframe {
+        width: 586px;
+        display: inline-block;
+        margin-top: -70px;
+        margin-left: 41px;
+        border-radius: 27px;
+        margin-bottom: -91px;
+        height: 332px;
+        box-shadow: 0 0 20px 0 black;
+        transition: 1s all;
+        
+    }
+}
+
+.informacion-juego iframe:hover {
+    transform: scale(1.01);
+}
+
+.iframe-dos iframe {
+    margin-bottom: -7px;
+}
+
+.iframe-tres iframe{
+    margin-bottom: -150px;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width: 800px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+    .portada-inicio {
+    
+        display: none;
+        background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .productos {
+        grid-area: juegos;
+        display: contents;
+    
+    }
+    
+    .container-index {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        grid-area: juegos;
+        box-shadow: none;
+        margin-left: 0px;
+    }
+    
+    .container-index h2 {
+        color: white;
+        display: inline-block;
+        margin: 61px 0px -49px;
+        text-align: center;
+    }
+    
+    .container-index img:hover {
+        transform: none;
+    }
+    
+    .portada {
+        width: 100%;
+        display: flex;
+        grid-area: portada;
+    }
+    
+    .portada-juegos img{
+        display: none;
+    }
+    
+    .portada-play {
+        margin-bottom: -57px;
+    }
+    
+    .portada-xbox {
+        margin-bottom: -57px;
+    }
+    
+    .portada-nintendo {
+        margin-bottom: -57px;
+    }
+    
+    
+    .portada p {
+        display: flex;
+        right: 11px;
+        padding: 10px;
+        margin-top: -81px;
+        margin-left: 569px;
+        flex-direction: row;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+    }
+    
+    .juegos  {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        margin-top: 100px;
+        width: 100px;
+        grid-area: juegos;
+        margin-bottom: -140px;
+        transform: translate(157px,-98px);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    
+    }
+
+    .juegos a {
+    margin: 30px;
+    width: 292px;
+    margin: 70px 73px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1s all;
+    }
+    
+    .juegos p {
+        grid-area: juegos;
+        display: flex;
+        width: 300px;
+        
+    }
+    
+    .juegos img {
+        display: flex;
+        grid-column: 2 / 4;
+        width: 100%;
+        grid-row: auto;
+        grid-area: juegos;
+    }
+    
+    .juegos a:hover {
+        box-shadow: none;
+        transform: none;
+    }
+    
+    .container-juegos {
+        background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+        height: 830px;
+        margin-top: -600px;
+        position: relative;
+    }
+    
+    .container-juegos img {
+        width: 292px;
+        margin-left: 150px;
+        margin-top: -200px;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+    }
+    
+    .carousel-reservas {
+        grid-area: reservar;
+        overflow: hidden;
+        width: 100%;
+        height: 739px;
+        margin-top: 143px;
+    }
+    
+    .carousel-reservas h2 {
+        
+        color: white;
+        display: inline-flex;
+        margin-left: 12px;
+        margin-bottom: 215px;
+    }
+    
+    .div-reservas {
+        overflow: hidden;
+        margin-top: -185px;
+        height: 347px;
+        
+    }
+    
+    .div-reservas img{
+        margin-top: -66px;
+    
+    }
+    
+    
+    
+    
+    .proximos-juegos {
+        grid-area: preestrenos;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        transform: translate(-156px, -65px);
+        margin-left: 155px;
+        margin-top: -235px;
+    }
+    
+    .proximos-juegos img {
+        grid-area: preestrenos;
+        width: 295px;
+        margin: 20px 38px 50px 41px;
+        display: flex;
+        box-shadow: 0 0 20px 0 black;
+        border-radius: 20px;
+        transition: 1s all;
+    }
+    
+    .proximos-juegos img:hover {
+        transform: none;
+    }
+    
+    
+    
+    .container-juegos {
+        height: 1200px;
+        background-color: #000000d6;
+        transform: translate(0px, 58px);
+    }
+    
+    .container-juegos h2 {
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+    
+    .container-juegos span {
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+    
+    .valoracion {
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+    
+    
+    
+    
+    
+    .img-juego img {
+        display: none;
+    }
+    .portada-mobile {
+        background-position: center;
+        width: 100%;
+        margin-top: -295px;
+        background-repeat: no-repeat;
+    
+    }
+    /* Portada de los juegos */
+    
+    
+    
+    .portada-tlou1 {
+        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4UPX7BFVAFFWRGX2AZOZ5UY5VU.png);
+    }
+    
+    .portada-tlou2{
+        background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+    }
+    
+    .portada-spiderman {
+        background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202011/0714/YxnYgr7GHM0JVQRSrnOK35yr.png);
+    }
+    
+    .portada-gow {
+        background-image: url(https://static.wikia.nocookie.net/doblaje/images/6/67/God_of_war_ps4.jpg/revision/latest?cb=20200320062042&path-prefix=es);
+    }
+    
+    .portada-forza {
+        background-image: url(https://theworldwentaway.files.wordpress.com/2021/11/forzahorizon5-keyart-vert-rgb-final-1629720353.jpg);
+    }
+    
+    .portada-gears {
+        background-image: url(https://s1.gaming-cdn.com/images/products/2712/orig-fallback-v1/gears-5-pc-xbox-one-xbox-series-x-s-pc-xbox-one-xbox-series-x-s-juego-microsoft-store-cover.jpg?v=1647885157);
+    }
+    
+    .portada-ghotam {
+        background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+    }
+    
+    .portada-halo {
+        background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+    }
+    
+    .categorias {
+        transform: translate(-108px, 502px);
+        margin-bottom: 67px;
+    }
+    
+    .categorias img {
+        width: 40%;
+        border-radius: 0px;
+    }
+    
+    .categorias p {
+        color: white;
+        width: 36%;
+        transform: translate(18px, -97px);
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    
+    .boton-compra {
+        background-color: #161616;
+        width: 80%;
+        padding: 40px;
+        margin: 96px 85px 154px;
+        transform: translate(-31px, -108px);
+    }
+    
+    .boton-compra button {
+        width: 100%;
+    }
+    
+    
+    .capturas h4 {
+        top: 615px;
+        left: 43px;
+    }
+    
+    .titulo-captura {
+        margin-bottom: 50px;
+    }
+    
+    .capturas {
+        display: grid;
+    }
+    
+    .carousel-capturas {
+        display: flow-root;
+        transform: translate(-106px, -178px);
+        margin-top: 0px;
+        width: 74%;
+        
+    }
+    
+    
+    .carousel-capturas img {
+        margin: 0px;
+        border-radius: 0px;
+    }
+    
+    .container-juegos aside {
+        display: none;
+        width: 100%;
+        transform: translate(-17px, -46px);
+        font-size: 19px;
+    }
+    
+    
+    .informacion-juego {
+        height: 910px;
+    }
+    
+    .informacion-juego h2 {
+        transform: translate(-3px, 63px);
+        margin-bottom: 100px;
+    }
+    
+    .informacion-juego p {
+        bottom: 117px;
+        width: 85%;
+        flex-direction: row;
+        margin-top: 525px;
+        top: 129px;
+        transform: translate(20px, -28px);
+    }
+    
+    .informacion-juego iframe {
+        display: grid;
+        transform: translate(10px, 10px);
+        grid-area: portada;
+        margin: 0px;
+        width: 74%;
+        margin-left: 79px;
+        margin-top: -627px;
+    }
+    
+    .iframe-dos iframe {
+        margin-top: -757px;
+    }
+    
+    .informacion-juego iframe:hover {
+        transform: scale(none);
+    }
+    
+}
+
+@media screen and (min-width: 800px) and (max-width: 1022px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+
+    .main-dos {
+        overflow-x: hidden;
+    }
+
+    .portada-play img {
+        margin-top: -30px;
+    }
+    
+    .portada-xbox img{
+        margin-top: -30px;
+    }
+    
+    .portada-nintendo img {
+        margin-top: -30px;
+    }
+    
+    
+    .portada-inicio {
+        
+        display: none;
+        background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .productos {
+        grid-area: juegos;
+        display: contents;
+    
+    }
+    
+    .container-index {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+        grid-area: juegos;
+        box-shadow: none;
+        margin-top: 55px;
+        margin-left: 113px;
+        transform: translate(-113px, 3px);
+    }
+    
+    .container-index h2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 14px;
+        text-align: center;
+    
+    }
+    
+    .container-index img:hover {
+        transform: none;
+    }
+    
+    .portada {
+        width: 100%;
+        display: flex;
+        grid-area: portada;
+    }
+    
+    .portada-juegos img{
+        display: none;
+    }
+    
+    .portada-play {
+        margin-bottom: -57px;
+    }
+    
+    .portada-xbox {
+        margin-bottom: -57px;
+    }
+    
+    .portada-nintendo {
+        margin-bottom: -57px;
+    }
+    
+    
+    .portada p {
+        display: flex;
+        right: 11px;
+        padding: 10px;
+        margin-top: -81px;
+        margin-left: 569px;
+        transform: translate(-13px, -111px);
+        flex-direction: row;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+    }
+    
+    .juegos  {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        margin-top: 100px;
+        width: 100px;
+        grid-area: juegos;
+        margin-bottom: -140px;
+        transform: translate(226px, -118px);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    
+    }
+    
+    .juegos a {
+        text-decoration: none;
+        margin: 47px 116px;
+        width: 292px;
+        display: block;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: 1s all;
+    }
+
+    .juegos a:hover {
+        box-shadow: none;
+        transform: none;
+    }
+    
+    .juegos p {
+        grid-area: juegos;
+        display: flex;
+        width: 300px;
+    }
+    
+    .juegos img {
+        display: flex;
+        grid-column: 2 / 4;
+        
+        grid-row: auto;
+        grid-area: juegos;
+    }
+    
+    
+    .container-juegos {
+        background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+        height: 830px;
+        margin-top: -600px;
+        position: relative;
+    }
+    
+    .container-juegos img {
+        width: 292px;
+        margin-left: 150px;
+        margin-top: -200px;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+    }
+    
+    .carousel-reservas {
+        grid-area: reservar;
+        overflow: hidden;
+        width: 100%;
+        height: 739px;
+        margin-top: 143px;
+    }
+    
+    .carousel-reservas h2 {
+        
+        
+        color: white;
+        display: inline-flex;
+        margin-left: 12px;
+    }
+    
+    .div-reservas {
+        overflow: hidden;
+        margin-top: -185px;
+        height: 347px;
+        
+    }
+    
+    .div-reservas img{
+        margin-top: -66px;
+    
+    }
+    
+    
+    
+    
+    .proximos-juegos {
+        grid-area: preestrenos;
+        display: flex;
+        flex-direction: column;
+        margin-left: 155px;
+        margin-top: -279px;
+        width: 100%;
+        transform: translate(-155px, 10px);
+        align-items: center;
+    
+    }
+    
+    .proximos-juegos img {
+        grid-area: preestrenos;
+        width: 295px;
+        margin: 20px 38px 50px 41px;
+        display: flex;
+        box-shadow: 0 0 20px 0 black;
+        border-radius: 20px;
+        transition: 1s all;
+    }
+    
+    .proximos-juegos img:hover {
+        transform: none;
+    }
+    
+    
+    
+    .container-juegos {
+        height: 1200px;
+        background-color: #000000d6;
+        transform: translate(0px, 123px);
+        margin-bottom: 85px;
+    }
+    
+    .container-juegos h2 {
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+    
+    .container-juegos span {
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+    
+    .valoracion {
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+    
+    
+    
+    
+    .img-juego img {
+        display: none;
+    }
+    .portada-mobile {
+        background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+        background-position: center;
+        width: 100%;
+        margin-top: -295px;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .categorias {
+        transform: translate(-108px, 502px);
+        margin-bottom: 67px;
+    }
+    
+    .categorias img {
+        width: 40%;
+        border-radius: 0px;
+    }
+    
+    .categorias p {
+        color: white;
+        width: 36%;
+        transform: translate(18px, -97px);
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    
+    .boton-compra {
+        background-color: #161616;
+        width: 80%;
+        padding: 40px;
+        margin: 96px 85px 154px;
+        transform: translate(-31px, -108px);
+    }
+    
+    .boton-compra button {
+        width: 100%;
+    }
+    
+    
+    .capturas h4 {
+        top: 615px;
+        left: 43px;
+    }
+    
+    .capturas {
+        display: grid;
+    }
+    
+    .carousel-capturas {
+        display: flow-root;
+        transform: translate(-106px, -178px);
+        margin-top: 0px;
+        width: 74%;
+    }
+    
+    
+    .carousel-capturas img {
+        margin: 0px;
+        border-radius: 0px;
+    }
+    
+    .container-juegos aside {
+        display: none;
+        width: 100%;
+        transform: translate(-17px, -46px);
+        font-size: 19px;
+    }
+    
+    
+    .informacion-juego {
+        height: 910px;
+    }
+    
+    .informacion-juego h2 {
+        transform: translate(-3px, 63px);
+    }
+    
+    .informacion-juego p {
+        bottom: 117px;
+        width: 85%;
+        flex-direction: row;
+        margin-top: 525px;
+        top: 129px;
+        transform: translate(20px, -28px);
+    }
+    
+    .informacion-juego iframe {
+        display: grid;
+        transform: translate(10px, 10px);
+        grid-area: portada;
+        margin: 0px;
+        width: 74%;
+        margin-left: 79px;
+        margin-top: -627px;
+    }
+    
+    .iframe-dos iframe {
+        margin-top: -672px;
+    }
+    
+    .informacion-juego iframe:hover {
+        transform: scale(none);
+    }
+    
+    .block-2 {
+        width: 100%;
+        
+    }
+}
+
+
+
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu menu" 
+        "portada portada"
+        "header header"
+        "juegos juegos"
+        "alineacion alineacion"
+        "reservar reservar"
+        "preestrenos preestrenos"
+        "footer footer"
+        ;
+        overflow-x: hidden;
+        
+    }
+
+    .main-dos {
+
+    }
+
+    .portada-inicio {
+        grid-area: portada;
+        width: 100%;
+        height: 292px;
+        background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+        /* Juegos */
+    
+    .portada {
+        grid-area: portada;
+        width: 100%;
+    }
+    
+    .portada-play img{
+        grid-area: portada;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .productos {
+        grid-area: juegos;
+        margin: 12px;
+        display: contents;
+    }
+    
+    .container-index {
+        display: flex;
+        margin: auto;
+        grid-area: juegos;
+        box-shadow: none;
+        
+        flex-direction: row;
+        margin: auto;
+        
+        box-shadow: none;
+        margin-left: -10px;
+        
+    }
+    
+    
+    .container-index h2 {
+        margin: 16px;
+        color: white;
+        padding: 10px;
+        width: 210px;
+        height: 101px;
+        text-align: center;
+        display: inline-flex;
+    
+    }
+    
+    .container-index img:hover {
+        transform: none;
+    
+    }
+    
+    .container-index img:active {
+        border: solid;
+        border-color: blue; 
+    }
+    
+    .portada {
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        
+    }
+    
+    
+    .portada p {
+        display: flex;
+        right: 36px;
+        padding: 10px;
+        margin-top: -246px;
+        margin-left: 569px;
+        flex-direction: row;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+    }
+    
+    .juegos  {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 100px;
+        width: 100px;
+        left: 25px;
+        margin: 95px 76px 16px;
+        grid-area: juegos;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    
+    }
+    
+    .juegos a {
+        width: 218px;
+        margin: 27px -262px;
+    }
+    
+    .juegos p {
+        grid-area: juegos;
+        display: flex;
+        width: 100%;
+        margin: -79px 51px 12px;
+    }
+    
+    .juegos img {
+        display: flex;
+        grid-column: 2 / 4;
+        width: 100%;
+        grid-row: auto;
+        grid-area: juegos;
+    }
+    
+    
+    .container-juegos {
+        background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+        height: 830px;
+        margin-top: -600px;
+        position: relative;
+    }
+    
+    .container-juegos img {
+        grid-area: juegos;
+        width: 292px;
+        margin-left: 150px;
+        margin-top: -200px;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+    }
+    
+    .container-juegos aside {
+        width: 80%;
+        color: white;
+        font-size: 19px;
+        display: inline;
+        margin: 0px;
+        flex-direction: row;
+        transform: translate(-80px, -482px);
+    }
+    
+    .carousel-capturas {
+        grid-area: reservar;
+        box-shadow: none;
+        width: 60%;
+        transform: translate(-107px, -341px);
+    
+    }
+    
+    
+    
+    .capturas {
+        width: 100%;
+        transform: translate(10px, -404px);
+    }
+    
+    
+    .capturas h4 {
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        left: 51px;
+        top: -542px;
+    
+    }
+    
+    .carousel-capturas img {
+        margin-left: 0px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+    
+    .carousel-reservas {
+        grid-area: reservar;
+        overflow: hidden;
+        width: 100%;
+        height: 739px;
+    }
+    
+    .carousel-reservas h2 {
+        
+        
+        color: white;
+        display: inline-flex;
+        margin-left: 12px;
+    }
+    
+    .div-reservas {
+        overflow: hidden;
+        margin-top: -185px;
+        height: 382px;
+        
+    }
+    
+    .div-reservas img{
+        margin-top: -115px;
+    
+    }
+    
+    
+    
+    
+    .proximos-juegos {
+        grid-area: preestrenos;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: -260px;
+    }
+
+    .proximos-juegos a {
+        grid-area: preestrenos;
+        width: 218px;
+        margin: 30px;
+        display: flex;
+    }
+    
+    .proximos-juegos img {
+        grid-area: preestrenos;
+        width: 100%;
+        display: flex;
+        box-shadow: 0 0 20px 0 black;
+        border-radius: 20px;
+        transition: 1s all;
+    }
+    
+    .proximos-juegos img:hover {
+        transform: none;
+    }
+    
+    .container-juegos {
+        grid-area: header;
+    }
+    
+    .portada-juegos {
+        grid-area: portada;
+        width: 100%;
+    }
+    
+    .portada-juegos img {
+        margin-left: -296px;
+    }
+    
+    .pre-compra {
+        grid-area: header;
+    }
+    
+    .pre-compra img {
+        grid-area: reserar;
+        margin-left: 32px;
+        margin-left: -58px;
+        margin-top: 114px;
+        transform: translate(113px, -285px);
+        
+        box-shadow: none;
+    }
+    
+    
+    .pre-compra p {
+        grid-area: header;
+        margin: -338px 335px 43px;
+    }
+    
+    .container-juegos {
+        width: 100%;
+    }
+    
+    .container-juegos h2 {
+        transform: translate(432px, -542px);
+        margin: 0px;
+        font-size: 23px;
+    }
+    
+    .container-juegos span {
+            margin: 0px;
+        transform: translate(423px, -535px);
+        display: grid;
+    }
+    
+    
+    
+    
+    .categorias {
+        transform: translate(690px, -362px);
+    }
+    
+    .categorias img {
+        grid-area: header;
+        width: 79px;
+        margin: 0px;
+        border-radius: 0px;
+    
+    }
+    
+    .categorias p {
+        margin: 0px;
+        transform: translate(131px, -270px);
+        width: 20%;
+        font-size: 13px;
+    }
+    
+    .valoracion {
+        grid-area: reservar;
+        margin: 0px;
+        transform: translate(416px, -532px);
+    }
+    
+    .valoracion p {
+        margin:  0px;
+    }
+    
+    .boton-compra {
+        grid-area: header;
+        margin: 0px;
+        transform: translate(399px, -549px);
+    }
+    
+    .boton-compra p {
+        grid-area: header;
+        margin-bottom: 36px;
+        transform: translate(-331px, 13px);
+    }
+    .carousel-capturas img {
+        margin-left: -113px;
+        border-radius: 0px;
+        margin-top: 310px;
+    }
+    
+    .carousel-capturas span {
+        margin: 0px;
+        transform: translate(0px, -134px);
+        display: flex;
+    }
+    .informacion-juego {
+        grid-area: alineacion;
+        height: 874px;
+    }
+    
+    .informacion-juego h2 {
+        color: white;
+        font-size: 23px;
+        margin-left: 26px;
+        margin-top: 1px;
+        display: flex;
+    }
+    
+    .informacion-juego p {
+        margin-bottom: -38px;
+        color: white;
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 49px;
+        top: -35px;
+        left: 30px;
+        margin-top: 176px;
+        width: 46%;
+    }
+    
+    .informacion-juego iframe {
+        width: 466px;
+        display: inline-block;
+        margin-top: -84px;
+        margin-left: 41px;
+        border-radius: 27px;
+        margin-bottom: -50px;
+        height: 263px;
+        box-shadow: 0 0 20px 0 black;
+        transition: 1s all;
+    }
+}
+

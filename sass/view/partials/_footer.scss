@@ -18,3 +18,87 @@ i {
     margin-top: 20px;
     display: inline-block;
 }
+
+@media screen and (min-width: 320px) and (max-width:800px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+
+    
+footer {
+    width: 100%;
+    display: flex;
+    grid-area: footer;
+    margin-top: 170px;
+}
+
+.footer-2 {
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1022px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu" 
+        "portada"
+        "header"
+        "juegos"
+        "alineacion"
+        "reservar"
+        "preestrenos"
+        "footer"
+        ;
+    
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        grid-area: footer;
+        margin-top: 170px;
+    }
+    
+    .footer-2 {
+        margin: auto;
+    }
+    
+
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    .main {
+        display: grid;
+        grid-template-areas:
+        "menu menu" 
+        "portada portada"
+        "header header"
+        "juegos juegos"
+        "alineacion alineacion"
+        "reservar reservar"
+        "preestrenos preestrenos"
+        "footer footer"
+        ;
+        overflow-x: hidden;
+        
+    }
+    footer {
+        grid-area: footer ;
+        width: 100%;
+        display: flex;
+        grid-area: footer;
+        margin-top: 0px;
+    }
+}
