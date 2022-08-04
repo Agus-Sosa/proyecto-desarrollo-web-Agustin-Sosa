@@ -1222,9 +1222,12 @@
         ;
     
     }
-
     .main-dos {
         overflow-x: hidden;
+    }
+
+    .portada {
+        height: 100%;
     }
 
     .portada-play img {
@@ -1309,11 +1312,13 @@
         padding: 10px;
         margin-top: -81px;
         margin-left: 569px;
-        transform: translate(-13px, -111px);
         flex-direction: row;
+
         align-content: flex-start;
         flex-wrap: nowrap;
     }
+
+    
     
     .juegos  {
         display: inline-flex;
@@ -1852,6 +1857,7 @@
     
     .pre-compra {
         grid-area: header;
+        display: contents;
     }
     
     .pre-compra img {
@@ -1942,7 +1948,7 @@
     }
     .informacion-juego {
         grid-area: alineacion;
-        height: 874px;
+        
     }
     
     .informacion-juego h2 {

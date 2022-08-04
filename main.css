@@ -781,6 +781,8 @@ ul.show {
     grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
   .main-dos {
     overflow-x: hidden; }
+  .portada {
+    height: 100%; }
   .portada-play img {
     margin-top: 0px; }
   .portada-xbox img {
@@ -832,7 +834,6 @@ ul.show {
     padding: 10px;
     margin-top: -81px;
     margin-left: 569px;
-    transform: translate(-13px, -111px);
     flex-direction: row;
     align-content: flex-start;
     flex-wrap: nowrap; }
@@ -1169,7 +1170,8 @@ ul.show {
   .portada-juegos img {
     margin-left: -296px; }
   .pre-compra {
-    grid-area: header; }
+    grid-area: header;
+    display: contents; }
   .pre-compra img {
     grid-area: reserar;
     margin-left: 32px;
@@ -1225,8 +1227,7 @@ ul.show {
     transform: translate(0px, -134px);
     display: flex; }
   .informacion-juego {
-    grid-area: alineacion;
-    height: 874px; }
+    grid-area: alineacion; }
   .informacion-juego h2 {
     color: white;
     font-size: 23px;
