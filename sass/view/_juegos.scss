@@ -442,6 +442,392 @@
 
 
 
+// @media screen and (max-width: 555px) {
+//     .main {
+//         display: grid;
+//         grid-template-areas:
+//         "menu" 
+//         "portada"
+//         "header"
+//         "juegos"
+//         "alineacion"
+//         "reservar"
+//         "preestrenos"
+//         "footer"
+//         ;
+//         display: block;
+
+        
+//     }
+//     .main-dos {
+//         overflow-x: hidden;
+//     }
+//     .portada-inicio {
+    
+//         display: none;
+//         background-image: url('https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png');
+//         background-repeat: no-repeat;
+//         background-position: center;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//     }
+    
+//     .productos {
+//         grid-area: juegos;
+//         display: contents;
+    
+//     }
+    
+//     .container-index {
+//         display: flex;
+//         flex-direction: column;
+//         margin: auto;
+//         width: 100%;
+//         grid-area: juegos;
+//         box-shadow: none;
+//         margin-left: 0px;
+//     }
+    
+//     .container-index h2 {
+//         color: white;
+//         display: inline-block;
+//         margin: 61px 0px -49px;
+//         text-align: center;
+//     }
+    
+//     .container-index img:hover {
+//         transform: none;
+//     }
+    
+//     .portada {
+//         width: 100%;
+//         display: flex;
+//         grid-area: portada;
+//     }
+    
+//     .portada-juegos img{
+//         display: none;
+//     }
+    
+//     .portada-play img{
+//         margin-bottom: 0px;
+//         margin-top: 0px;
+//     }
+    
+//     .portada-xbox img{
+//         margin-bottom: 0px;
+//         margin-top: 0px;
+//     }
+    
+//     .portada-nintendo img{
+//         margin: 0px;
+//     }
+    
+    
+//     .portada p {
+//         display: flex;
+//         right: 11px;
+//         padding: 10px;
+//         margin-top: -81px;
+//         margin-left: 569px;
+//         flex-direction: row;
+//         align-content: flex-start;
+//         flex-wrap: nowrap;
+//     }
+    
+//     .juegos  {
+//         display: inline-flex;
+//         flex-direction: column;
+//         justify-content:flex-start;
+//         margin-top: 100px;
+//         width: 100px;
+//         grid-area: juegos;
+//         margin-bottom: -140px;
+//         transform: translate(157px,-98px);
+//         grid-template-columns: 1fr;
+//         grid-template-rows: repeat(4, 1fr);
+    
+//     }
+
+//     .juegos a {
+//     margin: 30px;
+//     width: 292px;
+//     margin: 70px 0px;
+//     display: block;
+//     text-decoration: none;
+//     border-radius: 20px;
+//     transition: 1s all;
+//     }
+    
+//     .juegos p {
+//         grid-area: juegos;
+//         display: flex;
+//         width: 100%;
+        
+//     }
+    
+//     .juegos img {
+//         display: flex;
+//         grid-column: 2 / 4;
+//         width: 100%;
+//         grid-row: auto;
+//         grid-area: juegos;
+//     }
+    
+//     .juegos a:hover {
+//         box-shadow: none;
+//         transform: none;
+//     }
+    
+//     .container-juegos {
+//         background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
+//         height: 830px;
+//         margin-top: -600px;
+//         position: relative;
+//     }
+    
+//     .container-juegos img {
+//         width: 292px;
+//         margin-left: 150px;
+//         margin-top: -200px;
+//         border-radius: 20px;
+//         box-shadow: 5px 8px 12px black;
+//     }
+    
+//     .carousel-reservas {
+//         grid-area: reservar;
+//         overflow: hidden;
+//         width: 100%;
+//         height: 739px;
+//         margin-top: 143px;
+//     }
+    
+//     .carousel-reservas h2 {
+        
+//         color: white;
+//         display: inline-flex;
+//         margin-left: 12px;
+//         margin-bottom: 215px;
+//     }
+    
+//     .div-reservas {
+//         overflow: hidden;
+//         margin-top: -185px;
+//         height: 347px;
+        
+//     }
+    
+//     .div-reservas img{
+//         margin-top: -66px;
+    
+//     }
+    
+    
+    
+    
+//     .proximos-juegos {
+//         grid-area: preestrenos;
+//         display: flex;
+//         flex-direction: column;
+//         width: 100%;
+//         align-items: center;
+//         transform: translate(-156px, -65px);
+//         margin-left: 155px;
+//         margin-top: -235px;
+//     }
+    
+//     .proximos-juegos img {
+//         grid-area: preestrenos;
+//         width: 100%;
+//         display: flex;
+//         box-shadow: 0 0 20px 0 black;
+//         border-radius: 20px;
+//         transition: 1s all;
+//     }
+    
+//     .proximos-juegos img:hover {
+//         transform: none;
+//     }
+    
+    
+    
+//     .container-juegos {
+//         height: 1200px;
+//         background-color: #000000d6;
+//         transform: translate(0px, 58px);
+//     }
+    
+//     .container-juegos h2 {
+//         margin: 0px;
+//         margin-top: 9px;
+//         margin-left: 15px;
+//     }
+    
+//     .container-juegos span {
+//         margin: 0px;
+//         margin-top: 9px;
+//         margin-left: 15px;
+//     }
+    
+//     .valoracion {
+//         margin: 0px;
+//         margin-top: 9px;
+//         margin-left: 15px;
+//     }
+    
+    
+    
+    
+    
+//     .img-juego img {
+//         display: none;
+//     }
+//     .portada-mobile {
+//         background-position: center;
+//         width: 100%;
+//         margin-top: -295px;
+//         background-repeat: no-repeat;
+    
+//     }
+//     /* Portada de los juegos */
+    
+    
+    
+//     .portada-tlou1 {
+//         background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4UPX7BFVAFFWRGX2AZOZ5UY5VU.png);
+//     }
+    
+//     .portada-tlou2{
+//         background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+//     }
+    
+//     .portada-spiderman {
+//         background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202011/0714/YxnYgr7GHM0JVQRSrnOK35yr.png);
+//     }
+    
+//     .portada-gow {
+//         background-image: url(https://static.wikia.nocookie.net/doblaje/images/6/67/God_of_war_ps4.jpg/revision/latest?cb=20200320062042&path-prefix=es);
+//     }
+    
+//     .portada-forza {
+//         background-image: url(https://theworldwentaway.files.wordpress.com/2021/11/forzahorizon5-keyart-vert-rgb-final-1629720353.jpg);
+//     }
+    
+//     .portada-gears {
+//         background-image: url(https://s1.gaming-cdn.com/images/products/2712/orig-fallback-v1/gears-5-pc-xbox-one-xbox-series-x-s-pc-xbox-one-xbox-series-x-s-juego-microsoft-store-cover.jpg?v=1647885157);
+//     }
+    
+//     .portada-ghotam {
+//         background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+//     }
+    
+//     .portada-halo {
+//         background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+//     }
+    
+//     .categorias {
+//         transform: translate(-108px, 502px);
+//         margin-bottom: 67px;
+//     }
+    
+//     .categorias img {
+//         width: 40%;
+//         border-radius: 0px;
+//     }
+    
+//     .categorias p {
+//         color: white;
+//         width: 36%;
+//         transform: translate(18px, -97px);
+//         margin-left: 12px;
+//         font-size: 12px;
+//     }
+    
+//     .boton-compra {
+//         background-color: #161616;
+//         width: 80%;
+//         padding: 40px;
+//         margin: 96px 85px 154px;
+//         transform: translate(-31px, -108px);
+//     }
+    
+//     .boton-compra button {
+//         width: 100%;
+//     }
+    
+    
+//     .capturas h4 {
+//         top: 615px;
+//         left: 43px;
+//     }
+    
+//     .titulo-captura {
+//         margin-bottom: 50px;
+//     }
+    
+//     .capturas {
+//         display: grid;
+//     }
+    
+//     .carousel-capturas {
+//         display: flow-root;
+//         transform: translate(-106px, -178px);
+//         margin-top: 0px;
+//         width: 74%;
+        
+//     }
+    
+    
+//     .carousel-capturas img {
+//         margin: 0px;
+//         border-radius: 0px;
+//     }
+    
+//     .container-juegos aside {
+//         display: none;
+//         width: 100%;
+//         transform: translate(-17px, -46px);
+//         font-size: 19px;
+//     }
+    
+    
+//     .informacion-juego {
+//         height: 910px;
+//     }
+    
+//     .informacion-juego h2 {
+//         transform: translate(-3px, 63px);
+//         margin-bottom: 100px;
+//     }
+    
+//     .informacion-juego p {
+//         bottom: 117px;
+//         width: 85%;
+//         flex-direction: row;
+//         margin-top: 525px;
+//         top: 129px;
+//         transform: translate(20px, -28px);
+//     }
+    
+//     .informacion-juego iframe {
+//         display: grid;
+//         transform: translate(10px, 10px);
+//         grid-area: portada;
+//         margin: 0px;
+//         width: 74%;
+//         margin-left: 79px;
+//         margin-top: -627px;
+//     }
+    
+//     .iframe-dos iframe {
+//         margin-top: -757px;
+//     }
+    
+//     .informacion-juego iframe:hover {
+//         transform: scale(none);
+//     }
+// }
+
 @media screen and (min-width:320px) and (max-width: 800px) {
     .main {
         display: grid;
@@ -455,6 +841,7 @@
         "preestrenos"
         "footer"
         ;
+        display: block;
     
     }
     .portada-inicio {
@@ -486,7 +873,8 @@
     .container-index h2 {
         color: white;
         display: inline-block;
-        margin: 61px 0px -49px;
+        margin: auto;
+        margin-top: 20px;
         text-align: center;
     }
     
@@ -504,16 +892,16 @@
         display: none;
     }
     
-    .portada-play {
-        margin-bottom: -57px;
+    .portada-play img{
+        margin: 0px;
     }
     
-    .portada-xbox {
-        margin-bottom: -57px;
+    .portada-xbox img{
+        margin: 0px;
     }
     
-    .portada-nintendo {
-        margin-bottom: -57px;
+    .portada-nintendo img{
+        margin: 0px;
     }
     
     
@@ -531,21 +919,18 @@
     .juegos  {
         display: inline-flex;
         flex-direction: column;
-        justify-content:flex-start;
-        margin-top: 100px;
-        width: 100px;
+        justify-content: flex-start;
+        width: 400px;
         grid-area: juegos;
-        margin-bottom: -140px;
-        transform: translate(157px,-98px);
+        margin: auto;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr); 
     
     }
 
     .juegos a {
     margin: 30px;
     width: 292px;
-    margin: 70px 73px;
     display: block;
     text-decoration: none;
     border-radius: 20px;
@@ -555,7 +940,7 @@
     .juegos p {
         grid-area: juegos;
         display: flex;
-        width: 300px;
+        
         
     }
     
@@ -611,7 +996,7 @@
     }
     
     .div-reservas img{
-        margin-top: -66px;
+        margin-top: 0px;
     
     }
     
@@ -631,8 +1016,7 @@
     
     .proximos-juegos img {
         grid-area: preestrenos;
-        width: 295px;
-        margin: 20px 38px 50px 41px;
+        width: 100%;
         display: flex;
         box-shadow: 0 0 20px 0 black;
         border-radius: 20px;
@@ -648,7 +1032,7 @@
     .container-juegos {
         height: 1200px;
         background-color: #000000d6;
-        transform: translate(0px, 58px);
+        transform: translate(0px, 120px);
     }
     
     .container-juegos h2 {
@@ -844,15 +1228,15 @@
     }
 
     .portada-play img {
-        margin-top: -30px;
+        margin-top: 0px;
     }
     
     .portada-xbox img{
-        margin-top: -30px;
+        margin-top: 0px;
     }
     
     .portada-nintendo img {
-        margin-top: -30px;
+        margin-top: 0px;
     }
     
     
@@ -906,16 +1290,16 @@
         display: none;
     }
     
-    .portada-play {
-        margin-bottom: -57px;
+    .portada-play img{
+        margin: 0px;
     }
     
-    .portada-xbox {
-        margin-bottom: -57px;
+    .portada-xbox img{
+        margin: 0px;
     }
     
-    .portada-nintendo {
-        margin-bottom: -57px;
+    .portada-nintendo img {
+        margin: 0px;
     }
     
     
@@ -934,20 +1318,18 @@
     .juegos  {
         display: inline-flex;
         flex-direction: column;
-        justify-content:flex-start;
-        margin-top: 100px;
-        width: 100px;
+        justify-content: flex-start;
+        width: 400px;
+        margin: auto;
         grid-area: juegos;
-        margin-bottom: -140px;
-        transform: translate(226px, -118px);
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
+}
     
-    }
+
     
     .juegos a {
         text-decoration: none;
-        margin: 47px 116px;
         width: 292px;
         display: block;
         text-decoration: none;
@@ -1035,8 +1417,7 @@
     
     .proximos-juegos img {
         grid-area: preestrenos;
-        width: 295px;
-        margin: 20px 38px 50px 41px;
+        width: 100%;
         display: flex;
         box-shadow: 0 0 20px 0 black;
         border-radius: 20px;
@@ -1322,7 +1703,6 @@
     .juegos p {
         grid-area: juegos;
         display: flex;
-        width: 100%;
         margin: -79px 51px 12px;
     }
     
@@ -1445,6 +1825,12 @@
         box-shadow: 0 0 20px 0 black;
         border-radius: 20px;
         transition: 1s all;
+    }
+
+    .proximos-juegos a p {
+        grid-area: preestrenos;
+    margin: 244px 39px;
+    width: 139px;
     }
     
     .proximos-juegos img:hover {

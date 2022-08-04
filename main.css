@@ -65,7 +65,8 @@ ul.show {
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
     display: grid;
-    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
+    display: block; }
   /* Navegacion */
   .header {
     width: 100%; }
@@ -546,7 +547,8 @@ ul.show {
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
     display: grid;
-    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
+    display: block; }
   .portada-inicio {
     display: none;
     background-image: url("https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png");
@@ -568,7 +570,8 @@ ul.show {
   .container-index h2 {
     color: white;
     display: inline-block;
-    margin: 61px 0px -49px;
+    margin: auto;
+    margin-top: 20px;
     text-align: center; }
   .container-index img:hover {
     transform: none; }
@@ -578,12 +581,12 @@ ul.show {
     grid-area: portada; }
   .portada-juegos img {
     display: none; }
-  .portada-play {
-    margin-bottom: -57px; }
-  .portada-xbox {
-    margin-bottom: -57px; }
-  .portada-nintendo {
-    margin-bottom: -57px; }
+  .portada-play img {
+    margin: 0px; }
+  .portada-xbox img {
+    margin: 0px; }
+  .portada-nintendo img {
+    margin: 0px; }
   .portada p {
     display: flex;
     right: 11px;
@@ -597,25 +600,21 @@ ul.show {
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 100px;
-    width: 100px;
+    width: 400px;
     grid-area: juegos;
-    margin-bottom: -140px;
-    transform: translate(157px, -98px);
+    margin: auto;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr); }
   .juegos a {
     margin: 30px;
     width: 292px;
-    margin: 70px 73px;
     display: block;
     text-decoration: none;
     border-radius: 20px;
     transition: 1s all; }
   .juegos p {
     grid-area: juegos;
-    display: flex;
-    width: 300px; }
+    display: flex; }
   .juegos img {
     display: flex;
     grid-column: 2 / 4;
@@ -652,7 +651,7 @@ ul.show {
     margin-top: -185px;
     height: 347px; }
   .div-reservas img {
-    margin-top: -66px; }
+    margin-top: 0px; }
   .proximos-juegos {
     grid-area: preestrenos;
     display: flex;
@@ -664,8 +663,7 @@ ul.show {
     margin-top: -235px; }
   .proximos-juegos img {
     grid-area: preestrenos;
-    width: 295px;
-    margin: 20px 38px 50px 41px;
+    width: 100%;
     display: flex;
     box-shadow: 0 0 20px 0 black;
     border-radius: 20px;
@@ -675,7 +673,7 @@ ul.show {
   .container-juegos {
     height: 1200px;
     background-color: #000000d6;
-    transform: translate(0px, 58px); }
+    transform: translate(0px, 120px); }
   .container-juegos h2 {
     margin: 0px;
     margin-top: 9px;
@@ -784,11 +782,11 @@ ul.show {
   .main-dos {
     overflow-x: hidden; }
   .portada-play img {
-    margin-top: -30px; }
+    margin-top: 0px; }
   .portada-xbox img {
-    margin-top: -30px; }
+    margin-top: 0px; }
   .portada-nintendo img {
-    margin-top: -30px; }
+    margin-top: 0px; }
   .portada-inicio {
     display: none;
     background-image: url("https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png");
@@ -822,12 +820,12 @@ ul.show {
     grid-area: portada; }
   .portada-juegos img {
     display: none; }
-  .portada-play {
-    margin-bottom: -57px; }
-  .portada-xbox {
-    margin-bottom: -57px; }
-  .portada-nintendo {
-    margin-bottom: -57px; }
+  .portada-play img {
+    margin: 0px; }
+  .portada-xbox img {
+    margin: 0px; }
+  .portada-nintendo img {
+    margin: 0px; }
   .portada p {
     display: flex;
     right: 11px;
@@ -842,16 +840,13 @@ ul.show {
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 100px;
-    width: 100px;
+    width: 400px;
+    margin: auto;
     grid-area: juegos;
-    margin-bottom: -140px;
-    transform: translate(226px, -118px);
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr); }
   .juegos a {
     text-decoration: none;
-    margin: 47px 116px;
     width: 292px;
     display: block;
     text-decoration: none;
@@ -907,8 +902,7 @@ ul.show {
     align-items: center; }
   .proximos-juegos img {
     grid-area: preestrenos;
-    width: 295px;
-    margin: 20px 38px 50px 41px;
+    width: 100%;
     display: flex;
     box-shadow: 0 0 20px 0 black;
     border-radius: 20px;
@@ -1082,7 +1076,6 @@ ul.show {
   .juegos p {
     grid-area: juegos;
     display: flex;
-    width: 100%;
     margin: -79px 51px 12px; }
   .juegos img {
     display: flex;
@@ -1162,6 +1155,10 @@ ul.show {
     box-shadow: 0 0 20px 0 black;
     border-radius: 20px;
     transition: 1s all; }
+  .proximos-juegos a p {
+    grid-area: preestrenos;
+    margin: 244px 39px;
+    width: 139px; }
   .proximos-juegos img:hover {
     transform: none; }
   .container-juegos {
@@ -1388,7 +1385,8 @@ i {
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
     display: grid;
-    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
+    display: block; }
   footer {
     width: 100%;
     display: flex;
