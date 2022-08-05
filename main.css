@@ -59,8 +59,7 @@ ul.show {
   left: 0px; }
 
 .nav a:hover {
-  box-shadow: 0 0 40px 0 white;
-  transform: scale(1.05); }
+  box-shadow: 0 0 40px 0 white; }
 
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
@@ -710,6 +709,14 @@ ul.show {
     background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg); }
   .portada-halo {
     background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg); }
+  .portada-zelda {
+    background-image: url(https://static.wikia.nocookie.net/doblaje/images/1/1a/The_Legend_of_Zelda_Breath_of_the_Wild.png/revision/latest?cb=20200320051740&path-prefix=es); }
+  .portada-mario1 {
+    background-image: url(https://estacionmars.pe/wp-content/uploads/2021/10/SUPER-MARIO-ODYSSEY-SWITCH-1-600x849.png); }
+  .portada-smash {
+    background-image: url(https://cdn.atomix.vg/wp-content/uploads/2018/12/review_super_smash_bros._ultimate.png); }
+  .portada-mario2 {
+    background-image: url(https://pics.filmaffinity.com/Mario_Rabbids_Sparks_of_Hope_C-468698661-large.jpg); }
   .categorias {
     transform: translate(-108px, 502px);
     margin-bottom: 67px; }
@@ -795,7 +802,8 @@ ul.show {
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 400px; }
   .productos {
     grid-area: juegos;
     display: contents; }
@@ -963,7 +971,7 @@ ul.show {
   .carousel-capturas {
     display: flow-root;
     transform: translate(-106px, -178px);
-    margin-top: 0px;
+    margin-top: 25px;
     width: 74%; }
   .carousel-capturas img {
     margin: 0px;
@@ -976,7 +984,8 @@ ul.show {
   .informacion-juego {
     height: 910px; }
   .informacion-juego h2 {
-    transform: translate(-3px, 63px); }
+    transform: translate(-3px, 63px);
+    margin-bottom: 40px; }
   .informacion-juego p {
     bottom: 117px;
     width: 85%;
