@@ -756,7 +756,7 @@
     
     .boton-compra {
         background-color: #161616;
-        width: 80%;
+        width: 70%;
         padding: 40px;
         margin: 96px 85px 154px;
         transform: translate(-31px, -108px);
@@ -781,10 +781,10 @@
     }
     
     .carousel-capturas {
-        display: flow-root;
-        transform: translate(-106px, -178px);
-        margin-top: 0px;
-        width: 74%;
+        display: flex;
+    transform: translate(-106px, -178px);
+    margin: 48px 143px;
+    width: 74%;
         
     }
     
@@ -815,24 +815,25 @@
         bottom: 117px;
         width: 85%;
         flex-direction: row;
-        margin-top: 525px;
-        top: 129px;
-        transform: translate(20px, -28px);
+        margin-top: 3px;
+        margin: 8px 42px;
+        display: inline-flex;
+    }
+
+    .container-video {
+        grid-area: preestrenos;
+
     }
     
     .informacion-juego iframe {
-        display: grid;
-        transform: translate(10px, 10px);
+        display: flex;
         grid-area: portada;
         margin: 0px;
-        width: 74%;
+        width: 72%;
         margin-left: 79px;
-        margin-top: -627px;
     }
     
-    .iframe-dos iframe {
-        margin-top: -757px;
-    }
+
     
     .informacion-juego iframe:hover {
         transform: scale(none);
@@ -1187,6 +1188,11 @@
         top: 129px;
         transform: translate(20px, -28px);
     }
+
+    .container-video {
+        grid-area: preestrenos;
+
+    }
     
     .informacion-juego iframe {
         display: grid;
@@ -1198,10 +1204,12 @@
         margin-top: -627px;
     }
     
+
     .iframe-dos iframe {
         margin-top: -672px;
     }
     
+
     .informacion-juego iframe:hover {
         transform: scale(none);
     }
@@ -1604,6 +1612,11 @@
         left: 30px;
         margin-top: 176px;
         width: 46%;
+    }
+    
+    .container-video {
+        grid-area: preestrenos;
+
     }
     
     .informacion-juego iframe {

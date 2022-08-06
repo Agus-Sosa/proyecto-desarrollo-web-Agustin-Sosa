@@ -24,7 +24,9 @@ header {
   background: linear-gradient(180deg, rgba(17, 17, 18, 0.53) 0%, rgba(18, 18, 19, 0.76) 6.25%, #232227 100%); }
 
 ul li {
-  display: inline-flex; }
+  display: inline-flex;
+  border-radius: 10px;
+  transition: 1s all ease-in-out; }
 
 .unorder i {
   display: inline;
@@ -39,12 +41,13 @@ ul li {
   border-radius: 10px;
   padding: 30px;
   margin: 10px;
-  background-color: black;
   color: white;
+  border-color: black;
+  background-color: transparent;
   text-decoration: none;
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 40px 40px black inset;
   justify-content: space-between;
-  transition: .4s ease; }
+  transition: .4s ease-in-out; }
 
 .btn_menu {
   margin-right: 30px;
@@ -59,7 +62,7 @@ ul.show {
   left: 0px; }
 
 .nav a:hover {
-  box-shadow: 0 0 40px 0 white; }
+  box-shadow: 0px 0px 10px black inset, 0 0px 10px 4px white; }
 
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
@@ -731,7 +734,7 @@ ul.show {
     font-size: 12px; }
   .boton-compra {
     background-color: #161616;
-    width: 80%;
+    width: 70%;
     padding: 40px;
     margin: 96px 85px 154px;
     transform: translate(-31px, -108px); }
@@ -745,9 +748,9 @@ ul.show {
   .capturas {
     display: grid; }
   .carousel-capturas {
-    display: flow-root;
+    display: flex;
     transform: translate(-106px, -178px);
-    margin-top: 0px;
+    margin: 48px 143px;
     width: 74%; }
   .carousel-capturas img {
     margin: 0px;
@@ -766,19 +769,17 @@ ul.show {
     bottom: 117px;
     width: 85%;
     flex-direction: row;
-    margin-top: 525px;
-    top: 129px;
-    transform: translate(20px, -28px); }
+    margin-top: 3px;
+    margin: 8px 42px;
+    display: inline-flex; }
+  .container-video {
+    grid-area: preestrenos; }
   .informacion-juego iframe {
-    display: grid;
-    transform: translate(10px, 10px);
+    display: flex;
     grid-area: portada;
     margin: 0px;
-    width: 74%;
-    margin-left: 79px;
-    margin-top: -627px; }
-  .iframe-dos iframe {
-    margin-top: -757px; }
+    width: 72%;
+    margin-left: 79px; }
   .informacion-juego iframe:hover {
     transform: scale(none); } }
 
@@ -993,6 +994,8 @@ ul.show {
     margin-top: 525px;
     top: 129px;
     transform: translate(20px, -28px); }
+  .container-video {
+    grid-area: preestrenos; }
   .informacion-juego iframe {
     display: grid;
     transform: translate(10px, 10px);
@@ -1253,6 +1256,8 @@ ul.show {
     left: 30px;
     margin-top: 176px;
     width: 46%; }
+  .container-video {
+    grid-area: preestrenos; }
   .informacion-juego iframe {
     width: 466px;
     display: inline-block;

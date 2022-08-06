@@ -8,7 +8,8 @@ header {
 ul li{
     
     display: inline-flex;
-    
+    border-radius: 10px;
+    transition: 1s all ease-in-out;
 }
 
 .unorder i {
@@ -26,12 +27,13 @@ ul li{
     border-radius: 10px;
     padding: 30px;
     margin: 10px;
-    background-color: $alternative;
     color: white;
+    border-color: $alternative;
+    background-color: transparent;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0 0 40px 40px black inset;
     justify-content: space-between;
-    transition: .4s ease;
+    transition: .4s ease-in-out;
 }
 
 .btn_menu {
@@ -49,9 +51,8 @@ ul.show {
 }
 
 .nav a:hover {
-    box-shadow: 0 0 40px 0 white;
+    box-shadow: 0px 0px 10px  $alternative inset, 0 0px 10px 4px $text-color;
 }
-
 
 
 
