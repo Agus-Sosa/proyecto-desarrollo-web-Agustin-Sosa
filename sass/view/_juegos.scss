@@ -568,7 +568,6 @@
     }
     
     .juegos a:hover {
-        box-shadow: none;
         transform: none;
     }
     
@@ -637,8 +636,8 @@
         border-radius: 20px;
         transition: 1s all;
     }
-    
-    .proximos-juegos img:hover {
+
+    .proximos-juegos a:hover {
         transform: none;
     }
     
@@ -711,7 +710,7 @@
     }
     
     .portada-ghotam {
-        background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+        background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202110/1318/L7hnlLmSl7JT4Qmv2WAAPBxb.png);
     }
     
     .portada-halo {
@@ -889,6 +888,64 @@
         background-size: cover;
         height: 400px;
     }
+
+    /* Portada de los juegos */
+    
+    .portada-mobile {
+        background-position: center;
+        width: 100%;
+        margin-top: -295px;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .portada-tlou1 {
+        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4UPX7BFVAFFWRGX2AZOZ5UY5VU.png);
+    }
+    
+    .portada-tlou2{
+        background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
+    }
+    
+    .portada-spiderman {
+        background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202011/0714/YxnYgr7GHM0JVQRSrnOK35yr.png);
+    }
+    
+    .portada-gow {
+        background-image: url(https://static.wikia.nocookie.net/doblaje/images/6/67/God_of_war_ps4.jpg/revision/latest?cb=20200320062042&path-prefix=es);
+    }
+    
+    .portada-forza {
+        background-image: url(https://theworldwentaway.files.wordpress.com/2021/11/forzahorizon5-keyart-vert-rgb-final-1629720353.jpg);
+    }
+    
+    .portada-gears {
+        background-image: url(https://s1.gaming-cdn.com/images/products/2712/orig-fallback-v1/gears-5-pc-xbox-one-xbox-series-x-s-pc-xbox-one-xbox-series-x-s-juego-microsoft-store-cover.jpg?v=1647885157);
+    }
+    
+    .portada-ghotam {
+        background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+    }
+    
+    .portada-halo {
+        background-image: url(https://i.blogs.es/a19748/halo-infinite-portada-02/450_1000.jpeg);
+    }
+
+    .portada-zelda {
+        background-image: url(https://static.wikia.nocookie.net/doblaje/images/1/1a/The_Legend_of_Zelda_Breath_of_the_Wild.png/revision/latest?cb=20200320051740&path-prefix=es);
+    }
+
+    .portada-mario1 {
+        background-image: url(https://estacionmars.pe/wp-content/uploads/2021/10/SUPER-MARIO-ODYSSEY-SWITCH-1-600x849.png);
+    }
+
+    .portada-smash {
+        background-image: url(https://cdn.atomix.vg/wp-content/uploads/2018/12/review_super_smash_bros._ultimate.png);
+    }
+
+    .portada-mario2 {
+        background-image: url(https://pics.filmaffinity.com/Mario_Rabbids_Sparks_of_Hope_C-468698661-large.jpg);
+    }
     
     .productos {
         grid-area: juegos;
@@ -910,8 +967,8 @@
     
     .container-index h2 {
         display: flex;
-        flex-direction: column;
         margin-top: 14px;
+        margin: auto;
         text-align: center;
     
     }
@@ -1066,7 +1123,11 @@
         transition: 1s all;
     }
     
-    .proximos-juegos img:hover {
+    .proximos-juegos a:hover {
+        transform: none;
+    }
+
+    .promocion-juego a:hover {
         transform: none;
     }
     
@@ -1104,7 +1165,6 @@
         display: none;
     }
     .portada-mobile {
-        background-image: url(https://i.blogs.es/2696f8/tlou2/1366_2000.jpeg);
         background-position: center;
         width: 100%;
         margin-top: -295px;
@@ -1207,13 +1267,8 @@
     }
     
 
-    .iframe-dos iframe {
-        margin-top: -672px;
-    }
-    
-
     .informacion-juego iframe:hover {
-        transform: scale(none);
+        transform: none;
     }
     
     .block-2 {
@@ -1242,9 +1297,6 @@
         
     }
 
-    .main-dos {
-
-    }
 
     .portada-inicio {
         grid-area: portada;
