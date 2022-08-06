@@ -804,11 +804,13 @@
     
     .informacion-juego {
         height: 910px;
+        grid-area: alineacion;
     }
     
     .informacion-juego h2 {
         transform: translate(-3px, 63px);
-        margin-bottom: 100px;
+        margin: 67px 24px;
+
     }
     
     .informacion-juego p {

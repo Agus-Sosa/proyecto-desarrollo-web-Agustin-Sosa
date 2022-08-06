@@ -200,17 +200,19 @@ ul.show {
     display: block; }
   .nav a {
     display: inline-block;
-    grid-area: menu;
     flex-direction: row;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    background-color: black;
     color: white;
+    border-color: black;
+    background-color: transparent;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 40px 40px black inset;
     justify-content: space-between;
-    transition: .4s ease; } }
+    transition: .4s ease-in-out; }
+  .nav a:hover {
+    box-shadow: 0px 0px 10px black inset, 0 0px 10px 4px white; } }
 
 .portada-inicio {
   background-image: url("https://www.6amgroup.com/wp-content/uploads/2016/05/Afterlife1.png");
@@ -761,10 +763,11 @@ ul.show {
     transform: translate(-17px, -46px);
     font-size: 19px; }
   .informacion-juego {
-    height: 910px; }
+    height: 910px;
+    grid-area: alineacion; }
   .informacion-juego h2 {
     transform: translate(-3px, 63px);
-    margin-bottom: 100px; }
+    margin: 67px 24px; }
   .informacion-juego p {
     bottom: 117px;
     width: 85%;
@@ -1406,7 +1409,7 @@ i {
     width: 100%;
     display: flex;
     grid-area: footer;
-    margin-top: 170px; }
+    margin-top: 0px; }
   .footer-2 {
     margin: auto; } }
 
@@ -1418,7 +1421,7 @@ i {
     width: 100%;
     display: flex;
     grid-area: footer;
-    margin-top: 170px; }
+    margin-top: 0px; }
   .footer-2 {
     margin: auto; } }
 

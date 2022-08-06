@@ -315,16 +315,21 @@ ul.show {
 
 .nav a{
     display: inline-block;
-    grid-area: menu;
     flex-direction: row;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    background-color: black;
     color: white;
+    border-color: $alternative;
+    background-color: transparent;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0 0 40px 40px black inset;
     justify-content: space-between;
-    transition: .4s ease;
+    transition: .4s ease-in-out;
+}
+
+
+.nav a:hover {
+    box-shadow: 0px 0px 10px  $alternative inset, 0 0px 10px 4px $text-color;
 }
 }
