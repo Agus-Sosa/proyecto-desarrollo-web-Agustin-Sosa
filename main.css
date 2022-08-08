@@ -320,12 +320,16 @@ ul.show {
     margin: 0px;
     transition: 1s all; }
   .juegos p {
-    margin-left: 100px;
-    margin-top: -100px;
+    margin-left: 0px;
+    margin-top: -139px;
     color: white;
+    width: 294px;
     position: absolute;
+    background: #00000080;
     list-style: none;
-    transition: 1s all; }
+    transition: 1s all;
+    border-radius: 18px;
+    padding: 46px; }
 
 .juegos a {
   transition: 1s all; }
@@ -363,11 +367,15 @@ ul.show {
     transition: 1s all;
     border-radius: 20px; }
     .proximos-juegos a p {
-      margin: -88px 54px;
+      margin: -121px 0px;
       position: absolute;
       color: white;
+      padding: 50px;
+      border-radius: 20px;
       display: block;
-      transition: 1s all; }
+      transition: 1s all;
+      background: #00000080;
+      width: 300px; }
       .proximos-juegos a p p:hover {
         transform: scale(1.05);
         opacity: 80%; }
@@ -538,6 +546,9 @@ ul.show {
     height: 332px;
     box-shadow: 0 0 20px 0 black;
     transition: 1s all; }
+
+.container-video {
+  display: flex; }
 
 .informacion-juego iframe:hover {
   transform: scale(1.01); }
@@ -718,7 +729,7 @@ ul.show {
   .portada-mario1 {
     background-image: url(https://estacionmars.pe/wp-content/uploads/2021/10/SUPER-MARIO-ODYSSEY-SWITCH-1-600x849.png); }
   .portada-smash {
-    background-image: url(https://cdn.atomix.vg/wp-content/uploads/2018/12/review_super_smash_bros._ultimate.png); }
+    background-image: url(https://m.media-amazon.com/images/I/71RX-Ma8uNL._AC_SY679_.jpg); }
   .portada-mario2 {
     background-image: url(https://pics.filmaffinity.com/Mario_Rabbids_Sparks_of_Hope_C-468698661-large.jpg); }
   .categorias {
@@ -900,7 +911,7 @@ ul.show {
   .juegos p {
     grid-area: juegos;
     display: flex;
-    width: 300px; }
+    width: 293px; }
   .juegos img {
     display: flex;
     grid-column: 2 / 4;
@@ -1108,19 +1119,20 @@ ul.show {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 100px;
-    width: 100px;
+    width: 250px;
     left: 25px;
-    margin: 95px 76px 16px;
     grid-area: juegos;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr); }
   .juegos a {
     width: 218px;
-    margin: 27px -262px; }
+    margin: 27px -226px; }
   .juegos p {
     grid-area: juegos;
     display: flex;
-    margin: -79px 51px 12px; }
+    margin-top: -124px;
+    font-size: 11px;
+    width: 219px; }
   .juegos img {
     display: flex;
     grid-column: 2 / 4;
@@ -1201,8 +1213,9 @@ ul.show {
     transition: 1s all; }
   .proximos-juegos a p {
     grid-area: preestrenos;
-    margin: 244px 39px;
-    width: 139px; }
+    margin: 211px 0px;
+    width: 219px;
+    font-size: 11px; }
   .proximos-juegos img:hover {
     transform: none; }
   .container-juegos {
@@ -1236,7 +1249,7 @@ ul.show {
     transform: translate(423px, -535px);
     display: grid; }
   .categorias {
-    transform: translate(690px, -362px); }
+    transform: translate(601px, -362px); }
   .categorias img {
     grid-area: header;
     width: 79px;
