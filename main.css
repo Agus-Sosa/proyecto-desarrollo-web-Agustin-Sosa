@@ -67,14 +67,7 @@ ul.show {
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer";
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
     display: block; }
   /* Navegacion */
   .header {
@@ -133,14 +126,7 @@ ul.show {
 @media screen and (min-width: 800px) and (max-width: 1022px) {
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
   .main-dos {
     overflow-x: hidden; }
   /* Navegacion */
@@ -198,14 +184,7 @@ ul.show {
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
   .main {
     display: grid;
-    grid-template-areas: "menu menu" 
- "portada portada"
- "header header"
- "juegos juegos"
- "alineacion alineacion"
- "reservar reservar"
- "preestrenos preestrenos"
- "footer footer";
+    grid-template-areas: "menu menu"  "portada portada" "header header" "juegos juegos" "alineacion alineacion" "reservar reservar" "preestrenos preestrenos" "footer footer";
     overflow-x: hidden; }
   .header {
     width: 100%; }
@@ -582,14 +561,7 @@ ul.show {
     overflow-x: hidden; }
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer";
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
     display: block; }
   .portada-inicio {
     display: none;
@@ -829,14 +801,7 @@ ul.show {
     overflow-x: hidden; }
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
   .main-dos {
     overflow-x: hidden; }
   .portada {
@@ -1093,14 +1058,7 @@ ul.show {
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
   .main {
     display: grid;
-    grid-template-areas: "menu menu" 
- "portada portada"
- "header header"
- "juegos juegos"
- "alineacion alineacion"
- "reservar reservar"
- "preestrenos preestrenos"
- "footer footer";
+    grid-template-areas: "menu menu"  "portada portada" "header header" "juegos juegos" "alineacion alineacion" "reservar reservar" "preestrenos preestrenos" "footer footer";
     overflow-x: hidden; }
   .portada-inicio {
     grid-area: portada;
@@ -1456,28 +1414,14 @@ ul.show {
 @media screen and (min-width: 800px) and (max-width: 1022px) {
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
   .block-2 {
     width: 100; } }
 
 @media screen and (min-width: 800px) and (max-width: 1022px) {
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
   .block-2 {
     width: 100%; } }
 
@@ -1502,14 +1446,7 @@ i {
 @media screen and (min-width: 320px) and (max-width: 800px) {
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer";
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
     display: block; }
   footer {
     width: 100%;
@@ -1522,14 +1459,7 @@ i {
 @media screen and (min-width: 800px) and (max-width: 1022px) {
   .main {
     display: grid;
-    grid-template-areas: "menu" 
- "portada"
- "header"
- "juegos"
- "alineacion"
- "reservar"
- "preestrenos"
- "footer"; }
+    grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }
   footer {
     width: 100%;
     display: flex;
@@ -1541,14 +1471,7 @@ i {
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
   .main {
     display: grid;
-    grid-template-areas: "menu menu" 
- "portada portada"
- "header header"
- "juegos juegos"
- "alineacion alineacion"
- "reservar reservar"
- "preestrenos preestrenos"
- "footer footer";
+    grid-template-areas: "menu menu"  "portada portada" "header header" "juegos juegos" "alineacion alineacion" "reservar reservar" "preestrenos preestrenos" "footer footer";
     overflow-x: hidden; }
   footer {
     grid-area: footer;
