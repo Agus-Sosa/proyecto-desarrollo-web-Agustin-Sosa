@@ -97,7 +97,6 @@ ul.show {
     text-align: center;
     transition: all .4s;
     box-shadow: 0 0 20px 0 black;
-    width: 29%;
     flex-direction: column; }
   .unorder-dos {
     padding-bottom: 100%; }
@@ -153,7 +152,6 @@ ul.show {
     text-align: center;
     transition: all .4s;
     box-shadow: 0 0 20px 0 black;
-    width: 29%;
     flex-direction: column; }
   .unorder-dos {
     padding-bottom: 48%; }
@@ -297,7 +295,8 @@ ul.show {
 
 .productos {
   display: flex;
-  color: #29282e; }
+  color: #29282e;
+  flex-wrap: wrap; }
 
 .juegos {
   list-style: none; }
@@ -560,6 +559,8 @@ ul.show {
   margin-bottom: -150px; }
 
 @media screen and (min-width: 320px) and (max-width: 800px) {
+  body {
+    overflow-x: hidden; }
   .main {
     display: grid;
     grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer";
@@ -629,7 +630,8 @@ ul.show {
     transition: 1s all; }
   .juegos p {
     grid-area: juegos;
-    display: flex; }
+    display: flex;
+    padding-bottom: 57px; }
   .juegos img {
     display: flex;
     grid-column: 2 / 4;
@@ -797,6 +799,8 @@ ul.show {
     transform: scale(none); } }
 
 @media screen and (min-width: 800px) and (max-width: 1022px) {
+  body {
+    overflow-x: hidden; }
   .main {
     display: grid;
     grid-template-areas: "menu"  "portada" "header" "juegos" "alineacion" "reservar" "preestrenos" "footer"; }

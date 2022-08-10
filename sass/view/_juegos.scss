@@ -95,6 +95,7 @@
 .productos {
     display: flex;
     color: map-get($palette , 'primary' );
+    flex-wrap: wrap;
 }
 
 .juegos {
@@ -456,6 +457,9 @@
 
 
 @media screen and (min-width:320px) and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
     .main {
         display: grid;
         grid-template-areas:
@@ -567,7 +571,7 @@
     .juegos p {
         grid-area: juegos;
         display: flex;
-        
+        padding-bottom: 57px;
         
     }
     
@@ -855,6 +859,10 @@
 }
 
 @media screen and (min-width: 800px) and (max-width: 1022px) {
+
+    body {
+        overflow-x: hidden;
+    }
     .main {
         display: grid;
         grid-template-areas:
