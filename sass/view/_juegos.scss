@@ -496,14 +496,14 @@
         grid-area: juegos;
         box-shadow: none;
         margin-left: 0px;
-    }
-    
-    .container-index h2 {
-        color: white;
-        display: inline-block;
-        margin: auto;
-        margin-top: 20px;
-        text-align: center;
+        
+        h2 {
+            color: white;
+            display: inline-block;
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+        }
     }
     
     .container-index img:hover {
@@ -514,6 +514,17 @@
         width: 100%;
         display: flex;
         grid-area: portada;
+
+        p {
+            display: flex;
+            right: 11px;
+            padding: 10px;
+            margin-top: -81px;
+            margin-left: 569px;
+            flex-direction: row;
+            align-content: flex-start;
+            flex-wrap: nowrap;
+        }
     }
     
     .portada-juegos img{
@@ -533,16 +544,6 @@
     }
     
     
-    .portada p {
-        display: flex;
-        right: 11px;
-        padding: 10px;
-        margin-top: -81px;
-        margin-left: 569px;
-        flex-direction: row;
-        align-content: flex-start;
-        flex-wrap: nowrap;
-    }
     
     .juegos  {
         display: inline-flex;
@@ -554,31 +555,31 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr); 
     
+        a {
+        margin: 30px;
+        width: 292px;
+        display: block;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: 1s all;
+        }
+        
+        p {
+            grid-area: juegos;
+            display: flex;
+            padding-bottom: 57px;
+            
+        }
+        
+        img {
+            display: flex;
+            grid-column: 2 / 4;
+            width: 100%;
+            grid-row: auto;
+            grid-area: juegos;
+        }
     }
 
-    .juegos a {
-    margin: 30px;
-    width: 292px;
-    display: block;
-    text-decoration: none;
-    border-radius: 20px;
-    transition: 1s all;
-    }
-    
-    .juegos p {
-        grid-area: juegos;
-        display: flex;
-        padding-bottom: 57px;
-        
-    }
-    
-    .juegos img {
-        display: flex;
-        grid-column: 2 / 4;
-        width: 100%;
-        grid-row: auto;
-        grid-area: juegos;
-    }
     
     .juegos a:hover {
         transform: none;
@@ -589,14 +590,14 @@
         height: 830px;
         margin-top: -600px;
         position: relative;
-    }
-    
-    .container-juegos img {
-        width: 292px;
-        margin-left: 150px;
-        margin-top: -200px;
-        border-radius: 20px;
-        box-shadow: 5px 8px 12px black;
+        img {
+            width: 292px;
+            margin-left: 150px;
+            margin-top: -200px;
+            border-radius: 20px;
+            box-shadow: 5px 8px 12px black;
+        }
+        
     }
     
     .carousel-reservas {
@@ -605,27 +606,28 @@
         width: 100%;
         height: 739px;
         margin-top: 143px;
+
+        h2 {
+            
+            color: white;
+            display: inline-flex;
+            margin-left: 12px;
+            margin-bottom: 215px;
+        }
     }
     
-    .carousel-reservas h2 {
-        
-        color: white;
-        display: inline-flex;
-        margin-left: 12px;
-        margin-bottom: 215px;
-    }
     
     .div-reservas {
         overflow: hidden;
         margin-top: -185px;
         height: 347px;
         
+        img{
+            margin-top: 0px;
+        
+        }
     }
     
-    .div-reservas img{
-        margin-top: 0px;
-    
-    }
     
     
     
@@ -639,16 +641,17 @@
         transform: translate(-156px, -65px);
         margin-left: 155px;
         margin-top: -235px;
+
+        img {
+            grid-area: preestrenos;
+            width: 100%;
+            display: flex;
+            box-shadow: 0 0 20px 0 black;
+            border-radius: 20px;
+            transition: 1s all;
+        }
     }
     
-    .proximos-juegos img {
-        grid-area: preestrenos;
-        width: 100%;
-        display: flex;
-        box-shadow: 0 0 20px 0 black;
-        border-radius: 20px;
-        transition: 1s all;
-    }
 
     .proximos-juegos a:hover {
         transform: none;
@@ -660,19 +663,20 @@
         height: 1200px;
         background-color: #000000d6;
         transform: translate(0px, 120px);
+
+        h2 {
+            margin: 0px;
+            margin-top: 9px;
+            margin-left: 15px;
+        }
+        
+        span {
+            margin: 0px;
+            margin-top: 9px;
+            margin-left: 15px;
+        }
     }
     
-    .container-juegos h2 {
-        margin: 0px;
-        margin-top: 9px;
-        margin-left: 15px;
-    }
-    
-    .container-juegos span {
-        margin: 0px;
-        margin-top: 9px;
-        margin-left: 15px;
-    }
     
     .valoracion {
         margin: 0px;
@@ -751,19 +755,20 @@
     .categorias {
         transform: translate(-108px, 502px);
         margin-bottom: 67px;
-    }
-    
-    .categorias img {
-        width: 40%;
-        border-radius: 0px;
-    }
-    
-    .categorias p {
-        color: white;
-        width: 36%;
-        transform: translate(18px, -97px);
-        margin-left: 12px;
-        font-size: 12px;
+
+        img {
+            width: 40%;
+            border-radius: 0px;
+        }
+        
+        p {
+            color: white;
+            width: 36%;
+            transform: translate(18px, -97px);
+            margin-left: 12px;
+            font-size: 12px;
+        }
+        
     }
     
     .boton-compra {
@@ -772,10 +777,11 @@
         padding: 40px;
         margin: 96px 85px 154px;
         transform: translate(-31px, -108px);
-    }
-    
-    .boton-compra button {
-        width: 100%;
+
+        button {
+            width: 100%;
+        }
+        
     }
     
     
@@ -794,17 +800,17 @@
     
     .carousel-capturas {
         display: flex;
-    transform: translate(-106px, -178px);
-    margin: 48px 143px;
-    width: 74%;
+        transform: translate(-106px, -178px);
+        margin: 48px 143px;
+        width: 74%;
         
+        img {
+            margin: 0px;
+            border-radius: 0px;
+        }
     }
     
     
-    .carousel-capturas img {
-        margin: 0px;
-        border-radius: 0px;
-    }
     
     .container-juegos aside {
         display: none;
@@ -817,22 +823,23 @@
     .informacion-juego {
         height: 910px;
         grid-area: alineacion;
-    }
-    
-    .informacion-juego h2 {
-        transform: translate(-3px, 63px);
-        margin: 67px 24px;
+        
+        h2 {
+            transform: translate(-3px, 63px);
+            margin: 67px 24px;
+        }
 
+        p {
+            bottom: 117px;
+            width: 85%;
+            flex-direction: row;
+            margin-top: 3px;
+            margin: 8px 42px;
+            display: inline-flex;
+        }
     }
     
-    .informacion-juego p {
-        bottom: 117px;
-        width: 85%;
-        flex-direction: row;
-        margin-top: 3px;
-        margin: 8px 42px;
-        display: inline-flex;
-    }
+    
 
     .container-video {
         grid-area: preestrenos;
@@ -980,15 +987,16 @@
         margin-top: 55px;
         margin-left: 113px;
         transform: translate(-113px, 3px);
+        
+        h2 {
+            display: flex;
+            margin-top: 14px;
+            margin: auto;
+            text-align: center;
+        
+        }
     }
     
-    .container-index h2 {
-        display: flex;
-        margin-top: 14px;
-        margin: auto;
-        text-align: center;
-    
-    }
     
     .container-index img:hover {
         transform: none;
@@ -1040,52 +1048,55 @@
         grid-area: juegos;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
-}
+
+        a {
+            text-decoration: none;
+            width: 292px;
+            display: block;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: 1s all;
+        }
+
+        p {
+            grid-area: juegos;
+            display: flex;
+            width: 293px;
+        }
+        
+        img {
+            display: flex;
+            grid-column: 2 / 4;
+            
+            grid-row: auto;
+            grid-area: juegos;
+        }
+
+}        
     
 
     
-    .juegos a {
-        text-decoration: none;
-        width: 292px;
-        display: block;
-        text-decoration: none;
-        border-radius: 20px;
-        transition: 1s all;
-    }
+
 
     .juegos a:hover {
         box-shadow: none;
         transform: none;
     }
     
-    .juegos p {
-        grid-area: juegos;
-        display: flex;
-        width: 293px;
-    }
-    
-    .juegos img {
-        display: flex;
-        grid-column: 2 / 4;
-        
-        grid-row: auto;
-        grid-area: juegos;
-    }
-    
-    
     .container-juegos {
         background: linear-gradient(180deg, rgba(32, 31, 31, 0.26) 0%, rgba(32, 31, 31, 0.95) 18.06%, #000000 100%);;
         height: 830px;
         margin-top: -600px;
         position: relative;
-    }
-    
-    .container-juegos img {
-        width: 292px;
-        margin-left: 150px;
-        margin-top: -200px;
-        border-radius: 20px;
-        box-shadow: 5px 8px 12px black;
+
+        img {
+            width: 292px;
+            margin-left: 150px;
+            margin-top: -200px;
+            border-radius: 20px;
+            box-shadow: 5px 8px 12px black;
+        }
+        
     }
     
     .carousel-reservas {
@@ -1094,28 +1105,29 @@
         width: 100%;
         height: 739px;
         margin-top: 143px;
+
+        h2 {
+            
+            
+            color: white;
+            display: inline-flex;
+            margin-left: 12px;
+        }
     }
     
-    .carousel-reservas h2 {
-        
-        
-        color: white;
-        display: inline-flex;
-        margin-left: 12px;
-    }
     
     .div-reservas {
         overflow: hidden;
         margin-top: -185px;
         height: 347px;
         
+        img{
+            margin-top: -66px;
+        
+        }
+        
+        
     }
-    
-    .div-reservas img{
-        margin-top: -66px;
-    
-    }
-    
     
     
     
@@ -1129,16 +1141,16 @@
         transform: translate(-155px, 10px);
         align-items: center;
     
+        img {
+            grid-area: preestrenos;
+            width: 100%;
+            display: flex;
+            box-shadow: 0 0 20px 0 black;
+            border-radius: 20px;
+            transition: 1s all;
+        }
     }
     
-    .proximos-juegos img {
-        grid-area: preestrenos;
-        width: 100%;
-        display: flex;
-        box-shadow: 0 0 20px 0 black;
-        border-radius: 20px;
-        transition: 1s all;
-    }
     
     .proximos-juegos a:hover {
         transform: none;
@@ -1155,19 +1167,20 @@
         background-color: #000000d6;
         transform: translate(0px, 123px);
         margin-bottom: 85px;
+
+        h2 {
+            margin: 0px;
+            margin-top: 9px;
+            margin-left: 15px;
+        }
+        
+        span {
+            margin: 0px;
+            margin-top: 9px;
+            margin-left: 15px;
+        }
     }
     
-    .container-juegos h2 {
-        margin: 0px;
-        margin-top: 9px;
-        margin-left: 15px;
-    }
-    
-    .container-juegos span {
-        margin: 0px;
-        margin-top: 9px;
-        margin-left: 15px;
-    }
     
     .valoracion {
         margin: 0px;
@@ -1192,20 +1205,21 @@
     .categorias {
         transform: translate(-108px, 502px);
         margin-bottom: 67px;
+
+        img {
+            width: 40%;
+            border-radius: 0px;
+        }
+        
+        p {
+            color: white;
+            width: 36%;
+            transform: translate(18px, -97px);
+            margin-left: 12px;
+            font-size: 12px;
+        }
     }
     
-    .categorias img {
-        width: 40%;
-        border-radius: 0px;
-    }
-    
-    .categorias p {
-        color: white;
-        width: 36%;
-        transform: translate(18px, -97px);
-        margin-left: 12px;
-        font-size: 12px;
-    }
     
     .boton-compra {
         background-color: #161616;
@@ -1213,34 +1227,36 @@
         padding: 40px;
         margin: 96px 85px 154px;
         transform: translate(-31px, -108px);
+        button {
+            width: 100%;
+        }
     }
     
-    .boton-compra button {
-        width: 100%;
-    }
-    
-    
-    .capturas h4 {
-        top: 615px;
-        left: 43px;
-    }
     
     .capturas {
         display: grid;
+
+        h4 {
+            top: 615px;
+            left: 43px;
+        }
+        
     }
+    
     
     .carousel-capturas {
         display: flow-root;
         transform: translate(-106px, -178px);
         margin-top: 25px;
         width: 74%;
+
+        img {
+            margin: 0px;
+            border-radius: 0px;
+        }
     }
     
     
-    .carousel-capturas img {
-        margin: 0px;
-        border-radius: 0px;
-    }
     
     .container-juegos aside {
         display: none;
@@ -1252,35 +1268,36 @@
     
     .informacion-juego {
         height: 910px;
+        h2 {
+            transform: translate(-3px, 63px);
+            margin-bottom: 40px;
+        }
+        
+        p {
+            bottom: 117px;
+            width: 85%;
+            flex-direction: row;
+            margin-top: 525px;
+            top: 129px;
+            transform: translate(20px, -28px);
+        }
+
+        iframe {
+            display: grid;
+            transform: translate(10px, 10px);
+            grid-area: portada;
+            margin: 0px;
+            width: 74%;
+            margin-left: 79px;
+            margin-top: -627px;
+        }
+        
     }
     
-    .informacion-juego h2 {
-        transform: translate(-3px, 63px);
-        margin-bottom: 40px;
-    }
-    
-    .informacion-juego p {
-        bottom: 117px;
-        width: 85%;
-        flex-direction: row;
-        margin-top: 525px;
-        top: 129px;
-        transform: translate(20px, -28px);
-    }
 
     .container-video {
         grid-area: preestrenos;
 
-    }
-    
-    .informacion-juego iframe {
-        display: grid;
-        transform: translate(10px, 10px);
-        grid-area: portada;
-        margin: 0px;
-        width: 74%;
-        margin-left: 79px;
-        margin-top: -627px;
     }
     
 
@@ -1349,27 +1366,25 @@
         display: flex;
         margin: auto;
         grid-area: juegos;
-        box-shadow: none;
-        
+        box-shadow: none;       
         flex-direction: row;
         margin: auto;
-        
         box-shadow: none;
         margin-left: -10px;
         
+        h2 {
+            margin: 16px;
+            color: white;
+            padding: 10px;
+            width: 210px;
+            height: 101px;
+            text-align: center;
+            display: inline-flex;
+        
+        }
     }
     
     
-    .container-index h2 {
-        margin: 16px;
-        color: white;
-        padding: 10px;
-        width: 210px;
-        height: 101px;
-        text-align: center;
-        display: inline-flex;
-    
-    }
     
     .container-index img:hover {
         transform: none;
@@ -1410,29 +1425,29 @@
         grid-area: juegos;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
-    
+        
+        a {
+            width: 218px;
+            margin: 27px -226px;
+        }
+        
+        p {
+            grid-area: juegos;
+            display: flex;
+            margin-top: -124px;
+            font-size: 11px;
+            width: 219px;
+        }
+        
+        img {
+            display: flex;
+            grid-column: 2 / 4;
+            width: 100%;
+            grid-row: auto;
+            grid-area: juegos;
+        }
     }
     
-    .juegos a {
-        width: 218px;
-        margin: 27px -226px;
-    }
-    
-    .juegos p {
-        grid-area: juegos;
-        display: flex;
-        margin-top: -124px;
-        font-size: 11px;
-        width: 219px;
-    }
-    
-    .juegos img {
-        display: flex;
-        grid-column: 2 / 4;
-        width: 100%;
-        grid-row: auto;
-        grid-area: juegos;
-    }
     
     
     .container-juegos {
@@ -1440,25 +1455,26 @@
         height: 830px;
         margin-top: -600px;
         position: relative;
-    }
-    
-    .container-juegos img {
-        grid-area: juegos;
-        width: 292px;
-        margin-left: 150px;
-        margin-top: -200px;
-        border-radius: 20px;
-        box-shadow: 5px 8px 12px black;
-    }
-    
-    .container-juegos aside {
-        width: 80%;
-        color: white;
-        font-size: 19px;
-        display: inline;
-        margin: 0px;
-        flex-direction: row;
-        transform: translate(-80px, -482px);
+
+        img {
+            grid-area: juegos;
+            width: 292px;
+            margin-left: 150px;
+            margin-top: -200px;
+            border-radius: 20px;
+            box-shadow: 5px 8px 12px black;
+        }
+        
+        aside {
+            width: 80%;
+            color: white;
+            font-size: 19px;
+            display: inline;
+            margin: 0px;
+            flex-direction: row;
+            transform: translate(-80px, -482px);
+        }
+        
     }
     
     .carousel-capturas {
@@ -1467,6 +1483,12 @@
         width: 60%;
         transform: translate(-107px, -341px);
     
+        img {
+            margin-left: 0px;
+            border-radius: 0px;
+            margin-top: 0px;
+        }
+        
     }
     
     
@@ -1474,39 +1496,35 @@
     .capturas {
         width: 100%;
         transform: translate(10px, -404px);
+
+        h4 {
+            position: absolute;
+            color: white;
+            font-size: 18px;
+            display: flex;
+            left: 51px;
+            top: -542px;
+        
+        }
     }
     
     
-    .capturas h4 {
-        position: absolute;
-        color: white;
-        font-size: 18px;
-        display: flex;
-        left: 51px;
-        top: -542px;
-    
-    }
-    
-    .carousel-capturas img {
-        margin-left: 0px;
-        border-radius: 0px;
-        margin-top: 0px;
-    }
     
     .carousel-reservas {
         grid-area: reservar;
         overflow: hidden;
         width: 100%;
         height: 739px;
+
+        h2 {
+            
+            
+            color: white;
+            display: inline-flex;
+            margin-left: 12px;
+        }
     }
     
-    .carousel-reservas h2 {
-        
-        
-        color: white;
-        display: inline-flex;
-        margin-left: 12px;
-    }
     
     .div-reservas {
         overflow: hidden;
@@ -1529,22 +1547,22 @@
         flex-direction: row;
         width: 100%;
         margin-top: -260px;
-    }
-
-    .proximos-juegos a {
-        grid-area: preestrenos;
-        width: 218px;
-        margin: 30px;
-        display: flex;
-    }
-    
-    .proximos-juegos img {
-        grid-area: preestrenos;
-        width: 100%;
-        display: flex;
-        box-shadow: 0 0 20px 0 black;
-        border-radius: 20px;
-        transition: 1s all;
+        
+        a {
+            grid-area: preestrenos;
+            width: 218px;
+            margin: 30px;
+            display: flex;
+        }
+        
+        img {
+            grid-area: preestrenos;
+            width: 100%;
+            display: flex;
+            box-shadow: 0 0 20px 0 black;
+            border-radius: 20px;
+            transition: 1s all;
+        }
     }
 
     .proximos-juegos a p {
@@ -1553,6 +1571,7 @@
         width: 219px;
         font-size: 11px;
     }
+
     
     .proximos-juegos img:hover {
         transform: none;
@@ -1565,92 +1584,97 @@
     .portada-juegos {
         grid-area: portada;
         width: 100%;
-    }
-    
-    .portada-juegos img {
-        margin-left: -296px;
+
+        img {
+            margin-left: -296px;
+        }
+        
     }
     
     .pre-compra {
         grid-area: header;
         display: contents;
-    }
-    
-    .pre-compra img {
-        grid-area: reserar;
-        margin-left: 32px;
-        margin-left: -58px;
-        margin-top: 114px;
-        transform: translate(113px, -285px);
+
+        img {
+            grid-area: reserar;
+            margin-left: 32px;
+            margin-left: -58px;
+            margin-top: 114px;
+            transform: translate(113px, -285px);
+            box-shadow: none;
+        }
         
-        box-shadow: none;
+        
+        p {
+            grid-area: header;
+            margin: -338px 335px 43px;
+        }
     }
     
-    
-    .pre-compra p {
-        grid-area: header;
-        margin: -338px 335px 43px;
-    }
     
     .container-juegos {
         width: 100%;
-    }
-    
-    .container-juegos h2 {
-        transform: translate(432px, -542px);
-        margin: 0px;
-        font-size: 23px;
-    }
-    
-    .container-juegos span {
+
+        h2 {
+            transform: translate(432px, -542px);
             margin: 0px;
-        transform: translate(423px, -535px);
-        display: grid;
+            font-size: 23px;
+        }
+        
+        span {
+                margin: 0px;
+            transform: translate(423px, -535px);
+            display: grid;
+        }
+        
+        
     }
-    
     
     
     
     .categorias {
         transform: translate(601px, -362px);
-    }
-    
-    .categorias img {
-        grid-area: header;
-        width: 79px;
-        margin: 0px;
-        border-radius: 0px;
-    
-    }
-    
-    .categorias p {
-        margin: 0px;
-        transform: translate(131px, -270px);
-        width: 20%;
-        font-size: 13px;
+
+        img {
+            grid-area: header;
+            width: 79px;
+            margin: 0px;
+            border-radius: 0px;
+        
+        }
+        
+        p {
+            margin: 0px;
+            transform: translate(131px, -270px);
+            width: 20%;
+            font-size: 13px;
+        }
+        
     }
     
     .valoracion {
         grid-area: reservar;
         margin: 0px;
         transform: translate(416px, -532px);
+
+        p {
+            margin:  0px;
+        }
     }
     
-    .valoracion p {
-        margin:  0px;
-    }
     
     .boton-compra {
         grid-area: header;
         margin: 0px;
         transform: translate(399px, -549px);
+
+        p {
+            grid-area: header;
+            margin-bottom: 36px;
+            transform: translate(-331px, 13px);
+        }
     }
     
-    .boton-compra p {
-        grid-area: header;
-        margin-bottom: 36px;
-        transform: translate(-331px, 13px);
-    }
     .carousel-capturas img {
         margin-left: -113px;
         border-radius: 0px;
@@ -1665,26 +1689,37 @@
     .informacion-juego {
         grid-area: alineacion;
         
-    }
-    
-    .informacion-juego h2 {
-        color: white;
-        font-size: 23px;
-        margin-left: 26px;
-        margin-top: 1px;
-        display: flex;
-    }
-    
-    .informacion-juego p {
-        margin-bottom: -38px;
-        color: white;
-        display: inline-block;
-        font-size: 15px;
-        margin-left: 49px;
-        top: -35px;
-        left: 30px;
-        margin-top: 176px;
-        width: 46%;
+        h2 {
+            color: white;
+            font-size: 23px;
+            margin-left: 26px;
+            margin-top: 1px;
+            display: flex;
+        }
+        
+        p {
+            margin-bottom: -38px;
+            color: white;
+            display: inline-block;
+            font-size: 15px;
+            margin-left: 49px;
+            top: -35px;
+            left: 30px;
+            margin-top: 176px;
+            width: 46%;
+        }
+        
+        iframe {
+            width: 466px;
+            display: inline-block;
+            margin-top: -84px;
+            margin-left: 41px;
+            border-radius: 27px;
+            margin-bottom: -50px;
+            height: 263px;
+            box-shadow: 0 0 20px 0 black;
+            transition: 1s all;
+        }
     }
     
     .container-video {
@@ -1692,16 +1727,5 @@
 
     }
     
-    .informacion-juego iframe {
-        width: 466px;
-        display: inline-block;
-        margin-top: -84px;
-        margin-left: 41px;
-        border-radius: 27px;
-        margin-bottom: -50px;
-        height: 263px;
-        box-shadow: 0 0 20px 0 black;
-        transition: 1s all;
-    }
 }
 
